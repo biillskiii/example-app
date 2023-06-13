@@ -44,4 +44,3 @@ admin@gmail.com
 password
 ```
 -   And go to http://localhost:8000/
-# pkkmb-fmipa
