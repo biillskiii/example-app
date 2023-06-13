@@ -38,9 +38,4 @@ php artisan key:generate
 php artisan migrate
 php artisan serve
 ```
-```sh
-it's admin mail
-admin@gmail.com
-password
-```
 -   And go to http://localhost:8000/
