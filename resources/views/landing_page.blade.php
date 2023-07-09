@@ -4,6 +4,13 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Screenshot</title>
+
+    {{-- font style --}}
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap');
+    </style>
+
+    {{-- CSS --}}
     <link rel="stylesheet" type="text/css" href="{{asset('css/landing.css') }}">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -16,12 +23,20 @@
                 <div class="logo">
                     <a href="#"><h3>Screenshot</h3></a>
                 </div>
-                <ul>
-                    <li><a href="#keanggotaan">Keanggotaan</a></li>
-                    <li><a href="#portofolio">Portofolio</a></li>
-                    <li><a href="#event">Event</a></li>
+                <ul class="navmenu">
+                    <li class="navitem"><a href="#keanggotaan">Keanggotaan</a></li>
+                    <li class="navitem"><a href="#portofolio">Portofolio</a></li>
+                    <li class="navitem"><a href="#event">Event</a></li>
                 </ul>
                 <a class="btn btn-light" type="submit">Bergabung</a>
+
+                {{-- menut toggle --}}
+
+                <div class="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
             </nav>
 
             <br><br>
@@ -54,6 +69,16 @@
         </footer>
     </div>
 
+    <script>
+        const menu = document.querySelector('.menu-toggle');
+        const navmenu = document.querySelector('.navmenu');
+
+        menu.addEventListener('click', () => {
+            menu.classList.toggle('active');
+            navmenu.classList.toggle('active');
+        });
+
+    </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
