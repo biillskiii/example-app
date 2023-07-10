@@ -1,10 +1,7 @@
 *{
     margin: 0px;
     padding: 0px;
-}
-
-body{
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Josefin Sans';
 }
 
 .content{
@@ -14,31 +11,37 @@ body{
     justify-content: space-between;
 }
 
-/* Navbar section */
-nav .btn-light {
-    height: 40px;
-    width: 104px;
-    display: inline-flex;
-    margin-top: 3px;
-    padding: 8px 16px;
-    justify-content: center;
-    align-items: center;
-    gap: 10px;
-    color: #222;
-    font-family: Josefin Sans;
-    font-size: 14px;
-    font-weight: 600;
+
+.menu-toggle {
+    display: none;
+    cursor: pointer;
 }
+.bar{
+    display: block;
+    width: 25px;
+    height: 3px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color:#E9E9E9;
+}
+
+/* Navbar section */
 nav .logo{
     color: #F8F8F8;
-    font-family: 'Josefin Sans', sans-serif;
+    justify-content: center;
+    align-items: center;
+    padding: 5px 0;
     font-size: 24px;
-    margin-top: 5px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-right: 120px;
+
 }
 nav{
     flex-shrink: 0;
-    padding: 20px 0;
-    font-family: Josefin Sans;
+    padding: 10px;
     display: flex;
     background-color: #222;
     justify-content: space-around;
@@ -52,32 +55,51 @@ nav ul{
     display: flex;
     list-style: none;
     margin: 0;
-    width: 30%;
+    width: 25%;
     align-items: center;
+    justify-content: center;
     justify-content: space-between;
 }
 nav ul li a{
-    color: #F8F8F8;
-    font-family: 'Josefin Sans', sans-serif;
+    color: #E9E9E9;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
     text-decoration: none;
 }
-
+nav .btn-light {
+    height: 30px;
+    width: 104px;
+    display: inline-flex;
+    margin-left: 190px;
+    margin-top: 10px;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    color: #222;
+    font-size: 14px;
+    font-weight: 600;
+}
 
 
 /* footer Section */
 footer{
     padding: 30px;
-    height: 80px;
+    height: 60px;
     display: flex;
     flex-shrink: 0;
     background-color: #222;
     justify-content: space-around;
+    margin-bottom: 10px;
 }
 footer .copyright{
     color: #F8F8F8;
     font-size: 16px;
     margin-right: 20px;
-    font-family: 'Noto Sans KR',sans-serif;
+    font-family: 'Noto Sans KR';
+    margin-top: -8px;
 }
 footer ul li svg{
     color: #F8F8F8;
@@ -87,14 +109,121 @@ footer ul{
     display: flex;
     list-style: none;
     margin: 0;
-    margin-left: 240px;
+    margin-left: 350px;
     width: 30%;
     align-items: center;
     justify-content: space-between;
+    margin-bottom: 10px;
 
 }
 footer ul li a{
     color: #F8F8F8;
-    font-family: 'Josefin Sans', sans-serif;
     text-decoration: none;
+}
+
+
+/* responsive breakpoint */
+@media screen and (max-width: 1080px){
+    nav ul{
+        width: 35%;
+    }
+    nav .logo{
+        margin-right: 60px;
+    }
+    nav .btn-light{
+        margin-left: 100px;
+    }
+
+    /* footer */
+    footer{
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    footer .copyright{
+        margin-top: -10px;
+    }
+    footer ul{
+        margin-left: 160px;
+        width: 43%;
+    }
+
+}
+@media screen and (max-width: 768px) {
+    nav ul{
+        width: 40%;
+    }
+    nav .logo{
+        margin-right: 20px;
+    }
+    nav .btn-light{
+        margin-left: 30px;
+    }
+    /* footer */
+    footer{
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    footer .copyright{
+        margin-top: -15px;
+    }
+    footer ul{
+        margin-left: 10px;
+        width: 70%;
+    }
+
+
+}
+
+@media screen and (max-width: 576px) {
+    nav ul{
+        position: fixed;
+        right: -100%;
+        top: 60px;
+        gap: 0;
+        flex-direction: column;
+        background-color: #222;
+        width: 40%;
+        border-radius: 10px 10px;
+        transition: 0.4s;
+    }
+    .navitem{
+        margin: 3px 0;
+        margin-right: 20px;
+    }
+    .navmenu.active{
+        right: 0;
+    }
+    nav .logo{
+        margin-right: 100px;
+    }
+
+    /* three line Menu */
+    .menu-toggle{
+        display: block;
+        margin-top: 9px;
+    }
+    .menu-toggle.active .bar:nth-child(2){
+        opacity: 0;
+    }
+    .menu-toggle.active .bar:nth-child(1){
+        transform: translateY(8px) rotate(45deg);
+    }
+    .menu-toggle.active .bar:nth-child(3){
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    /* footer */
+    footer{
+        height: 60px;
+        margin-bottom: 10px;
+    }
+    footer .copyright{
+        margin-top: -15px;
+    }
+    footer ul{
+        margin-left: -20px;
+        width: 120%;
+    }
+
+
 }
