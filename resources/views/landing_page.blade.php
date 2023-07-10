@@ -7,6 +7,7 @@
 
     {{-- font style --}}
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap');
     </style>
 
@@ -48,6 +49,15 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium labore repellendus! Alias, id asperiores, doloremque saepe neque repellendus nulla eligendi voluptatem dolorem, consequatur nam laudantium deserunt maiores voluptas sapiente.</p>
                 </div>
                 <!-- Info section-->
+                <div class="containerTentang">
+                    <div class="gambarTentangKami"></div>
+                    <div class="posLogoQM">
+                    <div class="subLogoQM"></div>
+                    <div class="subLogoTentang">?</div>
+                    </div>
+                    <div class="judulTentang">TENTANG</div>
+                    <div class="deskripsiTentang">Screenshot adalah badan semi otonom dibawah naungan Hima Ilmu Komputer Fakultas Matematika & Ilmu Pengetahuan Alam Universitas Negeri Semarang, yang berfokus pada bidang Multimedia & Jurnalistik.</div>
+                    </div>
                 <!-- tujuan section-->
                 <!-- divisi section -->
                 <!-- thankyou section -->
