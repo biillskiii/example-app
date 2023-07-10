@@ -72,9 +72,9 @@
                 <h6>© Screenshot 2023 All Rights Reserved</h6>
             </div>
             <ul>
-                <li><a href=""><i class="bi bi-envelope-fill"></i>&nbsp Mail</a></li>
-                <li><a href=""><i class="bi bi-instagram"></i>&nbsp Instagram</a></li>
-                <li><a href=""><i class="bi bi-youtube"></i>&nbsp Youtube</a></li>
+                <li><a href="mailto:ilkom.screenshot@gmail.com"><i class="bi bi-envelope-fill"></i>&nbsp Mail</a></li>
+                <li><a href="https://www.instagram.com/screenshotilkom/"><i class="bi bi-instagram"></i>&nbsp Instagram</a></li>
+                <li><a href="https://youtube.com/@screenshotilkom3422"><i class="bi bi-youtube"></i>&nbsp Youtube</a></li>
             </ul>
         </footer>
     </div>
