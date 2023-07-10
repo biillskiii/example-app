@@ -92,7 +92,6 @@ footer{
     flex-shrink: 0;
     background-color: #222;
     justify-content: space-around;
-    margin-bottom: 10px;
 }
 footer .copyright{
     color: #F8F8F8;
@@ -114,7 +113,6 @@ footer ul{
     align-items: center;
     justify-content: space-between;
     margin-bottom: 10px;
-
 }
 footer ul li a{
     color: #F8F8F8;
