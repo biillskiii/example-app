@@ -7,6 +7,7 @@
 
     {{-- font style --}}
     <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;900&display=swap');
         @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400&display=swap');
     </style>
 
@@ -48,6 +49,15 @@
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium labore repellendus! Alias, id asperiores, doloremque saepe neque repellendus nulla eligendi voluptatem dolorem, consequatur nam laudantium deserunt maiores voluptas sapiente.</p>
                 </div>
                 <!-- Info section-->
+                <div class="containerTentang">
+                    <div class="gambarTentangKami"></div>
+                    <div class="posLogoQM">
+                    <div class="subLogoQM"></div>
+                    <div class="subLogoTentang">?</div>
+                    </div>
+                    <div class="judulTentang">TENTANG</div>
+                    <div class="deskripsiTentang">Screenshot adalah badan semi otonom dibawah naungan Hima Ilmu Komputer Fakultas Matematika & Ilmu Pengetahuan Alam Universitas Negeri Semarang, yang berfokus pada bidang Multimedia & Jurnalistik.</div>
+                    </div>
                 <!-- tujuan section-->
                 <!-- divisi section -->
                 <!-- thankyou section -->
@@ -62,9 +72,9 @@
                 <h6>© Screenshot 2023 All Rights Reserved</h6>
             </div>
             <ul>
-                <li><a href=""><i class="bi bi-envelope-fill"></i>&nbsp Mail</a></li>
-                <li><a href=""><i class="bi bi-instagram"></i>&nbsp Instagram</a></li>
-                <li><a href=""><i class="bi bi-youtube"></i>&nbsp Youtube</a></li>
+                <li><a href="mailto:ilkom.screenshot@gmail.com"><i class="bi bi-envelope-fill"></i>&nbsp Mail</a></li>
+                <li><a href="https://www.instagram.com/screenshotilkom/"><i class="bi bi-instagram"></i>&nbsp Instagram</a></li>
+                <li><a href="https://youtube.com/@screenshotilkom3422"><i class="bi bi-youtube"></i>&nbsp Youtube</a></li>
             </ul>
         </footer>
     </div>
