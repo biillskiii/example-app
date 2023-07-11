@@ -73,22 +73,13 @@
             </div>
             <ul>
                 <li><a href="mailto:ilkom.screenshot@gmail.com"><i class="bi bi-envelope-fill"></i>&nbsp Mail</a></li>
-                <li><a href="https://www.instagram.com/screenshotilkom/"><i class="bi bi-instagram"></i>&nbsp Instagram</a></li>
-                <li><a href="https://youtube.com/@screenshotilkom3422"><i class="bi bi-youtube"></i>&nbsp Youtube</a></li>
+                <li><a target="_blank" href="https://www.instagram.com/screenshotilkom/"><i class="bi bi-instagram"></i>&nbsp Instagram</a></li>
+                <li><a target="_blank" href="https://youtube.com/@screenshotilkom3422"><i class="bi bi-youtube"></i>&nbsp Youtube</a></li>
             </ul>
         </footer>
     </div>
-
-    <script>
-        const menu = document.querySelector('.menu-toggle');
-        const navmenu = document.querySelector('.navmenu');
-
-        menu.addEventListener('click', () => {
-            menu.classList.toggle('active');
-            navmenu.classList.toggle('active');
-        });
-
-    </script>
+    {{-- javascript --}}
+    <script type="text/javascript" src="{{asset('js/landing.js') }}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
