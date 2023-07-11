@@ -22,7 +22,7 @@
         <div>
             <nav>
                 <div class="logo">
-                    <a href="#"><h3>Screenshot</h3></a>
+                    <a href="#"><h3 style="padding-bottom: 0px">Screenshot</h3></a>
                 </div>
                 <ul class="navmenu">
                     <li class="navitem"><a href="#keanggotaan">Keanggotaan</a></li>
@@ -43,14 +43,16 @@
             <br><br>
 
             <!-- content utama -->
-            <main>
+            <section>
                 <div class="container-hero">
                     Content....
                     <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque accusantium labore repellendus! Alias, id asperiores, doloremque saepe neque repellendus nulla eligendi voluptatem dolorem, consequatur nam laudantium deserunt maiores voluptas sapiente.</p>
                 </div>
                 <!-- Info section-->
                 <div class="containerTentang">
-                    <div class="gambarTentangKami"></div>
+                    <div class="gambarTentangKami">
+                        <img src={{asset('assets/img/Tentang.png')}} class="d-block" alt="">
+                    </div>
                     <div class="posLogoQM">
                     <div class="subLogoQM"></div>
                     <div class="subLogoTentang">?</div>
@@ -61,7 +63,7 @@
                 <!-- tujuan section-->
                 <!-- divisi section -->
                 <!-- thankyou section -->
-            </main>
+            </section>
         </div>
 
 
