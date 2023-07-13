@@ -45,6 +45,7 @@
                 <marquee scrollamount="9">Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya - Screenshot - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya</marquee>
             </div>
         </div>
+
         
 <!-- card member -->
         <div class="card-member">
