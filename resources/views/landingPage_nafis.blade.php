@@ -45,16 +45,61 @@
                 <marquee scrollamount="9">Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya - Screenshot - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya</marquee>
             </div>
         </div>
-
+        
+<!-- card member -->
         <div class="card-member">
             <ul>
-                <li><a href="">Pengurus Harian</a></li>
+                <li class="ph"><a href="">Pengurus Harian</a></li>
                 <li><a href="">Jurnalistik</a>
                 <li><a href="">Sinematografi</a></li>
                 <li><a href="">Fotografi</a></li>
                 <li><a href="">Desain & Animasi</a></li>
                 <li><a href="">Alumni</a></li>
             </ul>
+            <div class="foto">
+                <div class="img-container">
+                    <img src="{{asset('picture/image 14.png') }}" alt="anggota">
+                    <div class="img-caption">
+                        <h4>Nur Azis Kurnia R</h4>
+                        <p>Ketua</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="{{asset('picture/image 11.png') }}" alt="anggota">
+                    <div class="img-caption">
+                        <h4>Nur Azis Kurnia R</h4>
+                        <p>Ketua</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="{{asset('picture/image 12.png') }}" alt="anggota">
+                    <div class="img-caption">
+                        <h4>Nur Azis Kurnia R</h4>
+                        <p>Ketua</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="{{asset('picture/image 13.png') }}" alt="anggota">
+                    <div class="img-caption">
+                        <h4>Nur Azis Kurnia R</h4>
+                        <p>Ketua</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="{{asset('picture/image 14.png') }}" alt="anggota">
+                    <div class="img-caption">
+                        <h4>Nur Azis Kurnia R</h4>
+                        <p>Ketua</p>
+                    </div>
+                </div>
+                <div class="img-container">
+                    <img src="{{asset('picture/image 15.png') }}" alt="anggota">
+                    <div class="img-caption">
+                        <h4>Nur Azis Kurnia R</h4>
+                        <p>Ketua</p>
+                    </div>
+                </div>
+            </div>
         </div>
 </body>
 </html>
