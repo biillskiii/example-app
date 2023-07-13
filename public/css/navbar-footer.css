@@ -62,7 +62,7 @@ nav a{
     color: var(--white2);
 }
 nav a:hover{
-    color: var(--red);
+    color: var(--white1);
 }
 nav ul{
     display: flex;
@@ -104,6 +104,21 @@ nav .btn-light:hover{
 }
 
 /* footer Section */
+
+.textbawah{
+    margin: 10% 0;
+    justify-content: center;
+}
+.textbawah .thanks{
+    color: var(--main);
+    margin: 0 5%;
+    text-align: center;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
 footer{
     height: 64px;
     display: flex;
@@ -128,6 +143,9 @@ footer ul {
     width: 35%;
     align-items: center;
     justify-content: space-between;    
+}
+footer ul li a:hover{
+    color: var(--white1);
 }
 
 footer ul li i{
