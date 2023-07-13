@@ -20,3 +20,6 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', function () {
     return view('layout/home');
 });
+Route::get('/keanggotaan', function () {
+    return view('landingPage_nafis');
+});
