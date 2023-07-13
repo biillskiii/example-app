@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web ss</title>
-    <link rel="stylesheet" type="text/css" href="{{asset('css/landing_nafis.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/keanggotaan.css') }}">
 
     <!-- font -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
