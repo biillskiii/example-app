@@ -48,12 +48,12 @@
 
         <div class="card-member">
             <ul>
-                <li class="ph"><a href="#">Pengurus Harian</a></li>
-                <li class="jurnalistik"><a href="#">Jurnalistik</a></li>
-                <li class="sinematografi"><a href="#">Sinematografi</a></li>
-                <li class="fotografi"><a href="#">Fotografi</a></li>
-                <li class="dna"><a href="#">Desain & Animasi</a></li>
-                <li class="alumni"><a href="#">Alumni</a></li>
+                <li><a href="">Pengurus Harian</a></li>
+                <li><a href="">Jurnalistik</a>
+                <li><a href="">Sinematografi</a></li>
+                <li><a href="">Fotografi</a></li>
+                <li><a href="">Desain & Animasi</a></li>
+                <li><a href="">Alumni</a></li>
             </ul>
         </div>
 </body>
