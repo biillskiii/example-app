@@ -1,9 +1,9 @@
-@extends('landing_page')
-@section('layout')
+@extends('header')
+@section('content')
 @section('title', 'Home')
 
 <div class="home">
-    <div class="header">
+    {{-- <div class="header">
         <p class="organisasi">SCREENSHOT</p>
         <div class="running-text">
             <marquee scrollamount="10" > <span>Multimedia & Jurnalistik - Hima Ilmu Komputer - Fakultas Matematika dan Ilmu Pengetahuan Alam - Universitas Negeri Semarang</span></marquee>
@@ -23,7 +23,7 @@
                 </marquee>
             </div>
         </div>
-    </div>
+    </div> --}}
     
     <!-- Info section-->
     <div class="containerTentang">
@@ -34,7 +34,7 @@
         </div>
         <div class="judulTentang">TENTANG</div>
         <div class="deskripsiTentang">Screenshot adalah badan semi otonom dibawah naungan Hima Ilmu Komputer Fakultas Matematika & Ilmu Pengetahuan Alam Universitas Negeri Semarang, yang berfokus pada bidang Multimedia & Jurnalistik.</div>
-        </div>
+    </div>
     <!-- tujuan section-->
     <!-- divisi section -->
     <!-- thankyou section -->
