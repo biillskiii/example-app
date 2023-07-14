@@ -56,6 +56,13 @@
                         <p>Ketua</p>
                     </div>
                 </div>
+                <div class="img-container">
+                    <img src="{{asset('picture/image 15.png') }}" alt="anggota">
+                    <div class="img-caption">
+                        <h4>Nur Azis Kurnia R</h4>
+                        <p>Ketua</p>
+                    </div>
+                </div>
             </div>
         </div>
 
