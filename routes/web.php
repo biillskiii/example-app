@@ -21,5 +21,5 @@ Route::get('/', function () {
     return view('layout/home');
 });
 Route::get('/keanggotaan', function () {
-    return view('landingPage_nafis');
+    return view('keanggotaanLayout');
 });

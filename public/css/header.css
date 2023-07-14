@@ -1,7 +1,3 @@
-.headerContainer {
-    margin: 0 5%;
-}
-
 .header {
     /* background-color: gray; */
     margin-bottom: 10%;
@@ -10,7 +6,7 @@
 
 .organisasi {
     color: var(--main);
-    text-align: center;
+    text-align:justify;
     /* leading-trim: both;
     text-edge: cap; */
     font-family: "Noto Sans KR";
