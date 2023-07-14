@@ -25,7 +25,7 @@
         <div>
             <nav>
                 <div class="logo">
-                    <a href="#">ScreenShot</a>
+                    <a href="/">ScreenShot</a>
                 </div>
                 <ul class="navmenu">
                     <li class="navitem"><a href="/keanggotaan">Keanggotaan</a></li>
