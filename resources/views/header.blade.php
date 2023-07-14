@@ -1,6 +1,4 @@
-@extends('navbar-footer')
-@section('layout')
-@section('title', 'Header')
+@section('header')
 
 <div class="headerContainer">
     <div class="header">
@@ -45,5 +43,4 @@
 
 </div>
 
-
-@endsection
+@show

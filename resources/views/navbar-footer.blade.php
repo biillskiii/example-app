@@ -22,31 +22,30 @@
   <body>
     <div class="content">
     <!-- ===== Navbar Section ===== -->
-        <div>
-            <nav>
-                <div class="logo">
-                    <a href="/">ScreenShot</a>
-                </div>
-                <ul class="navmenu">
-                    <li class="navitem"><a href="/keanggotaan">Keanggotaan</a></li>
-                    <li class="navitem"><a href="#portofolio">Portofolio</a></li>
-                    <li class="navitem"><a href="#event">Event</a></li>
-                </ul>
-                <a class="btn btn-light" type="submit">Bergabung</a>
+        <nav>
+            <div class="logo">
+                <a href="/">ScreenShot</a>
+            </div>
+            <ul class="navmenu">
+                <li class="navitem"><a href="/keanggotaan">Keanggotaan</a></li>
+                <li class="navitem"><a href="#portofolio">Portofolio</a></li>
+                <li class="navitem"><a href="#event">Event</a></li>
+            </ul>
+            <a class="btn btn-light" type="submit">Bergabung</a>
 
-                <!-- {{-- menut toggle --}} -->
-                <div class="menu-toggle">
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                    <span class="bar"></span>
-                </div>
-            </nav>
+            <!-- {{-- menut toggle --}} -->
+            <div class="menu-toggle">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
 
     <!-- ===== Layout Section ===== -->
-            <main>
-                @yield('layout')
-            </main>
-        </div>
+        <main>
+            @yield('layout')
+        </main>
+
 
 <!-- ===== Footer Section ===== -->
         <div class="textbawah">
