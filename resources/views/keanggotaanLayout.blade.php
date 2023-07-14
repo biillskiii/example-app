@@ -1,7 +1,8 @@
-@extends('header')
-@section('content')
-@section('title', 'Keanggotaan')
+@extends('navbar-footer')
+@section('layout')
+@section('title', 'keanggotaan')
 
+@include('header')
 
 <!-- card member -->
         <div class="card-member">

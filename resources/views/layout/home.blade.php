@@ -1,30 +1,10 @@
-@extends('header')
-@section('content')
-@section('title', 'Home')
+@extends('navbar-footer')
+@section('layout')
+@section('title', 'home')
 
-<div class="home">
-    {{-- <div class="header">
-        <p class="organisasi">SCREENSHOT</p>
-        <div class="running-text">
-            <marquee scrollamount="10" > <span>Multimedia & Jurnalistik - Hima Ilmu Komputer - Fakultas Matematika dan Ilmu Pengetahuan Alam - Universitas Negeri Semarang</span></marquee>
-        </div>
-        <div class="main-foto">
-            <img src="{{asset('picture/image 6.png') }}" alt="image">
-        </div>
-        <div class="textMiring">
-            <div class="miring-kiri">
-                <marquee scrollamount="10" class="miring-kiri"> 
-                    <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya - Screenshot - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya</span>
-                </marquee>
-            </div>
-            <div class="miring-kanan">
-                <marquee scrollamount="10" class="miring-kanan"> 
-                    <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya - Screenshot - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya</span>
-                </marquee>
-            </div>
-        </div>
-    </div> --}}
-    
+@include('header')
+
+<div class="home">   
     <!-- Info section-->
     <div class="containerTentang">
         <div class="gambarTentangKami"></div>
@@ -39,6 +19,5 @@
     <!-- divisi section -->
     <!-- thankyou section -->
 </div>
-
 
 @endsection
