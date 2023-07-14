@@ -28,7 +28,7 @@
                     <a href="#">ScreenShot</a>
                 </div>
                 <ul class="navmenu">
-                    <li class="navitem"><a href="#keanggotaan">Keanggotaan</a></li>
+                    <li class="navitem"><a href="/keanggotaan">Keanggotaan</a></li>
                     <li class="navitem"><a href="#portofolio">Portofolio</a></li>
                     <li class="navitem"><a href="#event">Event</a></li>
                 </ul>
