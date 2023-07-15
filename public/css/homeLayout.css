@@ -1,0 +1,69 @@
+/* ----- tentang Section ----- */
+.containerTentang {
+    display: flex;
+    position: relative;
+    background:var(--white1);
+  }
+  
+  .gambarTentangKami {
+    /* width: 624px;
+    height: 351px; */
+    /* left: 108px;
+    top: 45.78px;
+    position: absolute; */
+  }
+  
+  .posLogoQM{
+    /* width: 126.58px;
+    height: 126.58px;
+    left: 1134.75px;
+    top: 66.90px;
+    position: absolute; */
+  }
+  
+  .subLogoQM {
+    /* width: 89.50px;
+    height: 89.50px;
+    left: 81px;
+    top: 36px;
+    position: absolute;
+    transform: rotate(45deg);
+    transform-origin: 0 0;
+    background: #F2AF4A; */
+  }
+  
+  .subLogoTentang {
+    /* width: 31.70px;
+    height: 55.98px;
+    left: 64px;
+    top: 56px;
+    position: absolute;
+    font-size: 56pt; */
+  }
+  
+  .judulTentang {
+    /* left: 788px;
+    top: 124.80px;
+    position: absolute;
+    color: #222222;
+    font-size: 80px;
+    font-family: Noto Sans KR;
+    font-weight: 700;
+    text-decoration: underline;
+    word-wrap: break-word; */
+  }
+  
+  .deskripsiTentang {
+    /* width: 624px;
+    left: 788px;
+    top: 260px;
+    position: absolute;
+    text-align: justify;
+    color: #222222;
+    font-size: 24px;
+    font-family: Josefin Sans;
+    font-weight: 400;
+    line-height: 33.60px;
+    word-wrap: break-word; */
+  }
+
