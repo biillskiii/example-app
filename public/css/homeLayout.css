@@ -1,69 +1,213 @@
 /* ----- tentang Section ----- */
 .containerTentang {
+    width: 100%;
     display: flex;
+    height: 449px;
     position: relative;
-    background:var(--white1);
-  }
-  
-  .gambarTentangKami {
-    /* width: 624px;
-    height: 351px; */
-    /* left: 108px;
-    top: 45.78px;
-    position: absolute; */
-  }
-  
-  .posLogoQM{
-    /* width: 126.58px;
+}
+.gambarTentangKami {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.posLogoQM {
+    width: 126.58px;
     height: 126.58px;
     left: 1134.75px;
-    top: 66.90px;
-    position: absolute; */
-  }
-  
-  .subLogoQM {
-    /* width: 89.50px;
-    height: 89.50px;
-    left: 81px;
-    top: 36px;
+    top: 66.9px;
+    position: absolute;
+}
+
+.subLogoQM {
+    width: 89.5px;
+    height: 89.5px;
+    left: 50px;
+    top: -50px;
     position: absolute;
     transform: rotate(45deg);
     transform-origin: 0 0;
-    background: #F2AF4A; */
-  }
-  
-  .subLogoTentang {
-    /* width: 31.70px;
-    height: 55.98px;
-    left: 64px;
-    top: 56px;
+    background: #f2af4a;
+}
+
+.subLogoTentang {
+    left: 32px;
+    top: -35px;
     position: absolute;
-    font-size: 56pt; */
-  }
-  
-  .judulTentang {
-    /* left: 788px;
-    top: 124.80px;
+    font-size: 56pt;
+}
+.judulTentang {
+    left: 788px;
+    margin-top: 50px;
     position: absolute;
     color: #222222;
     font-size: 80px;
     font-family: Noto Sans KR;
     font-weight: 700;
     text-decoration: underline;
-    word-wrap: break-word; */
-  }
-  
-  .deskripsiTentang {
-    /* width: 624px;
+    word-wrap: break-word;
+}
+
+.deskripsiTentang {
+    width: 624px;
     left: 788px;
-    top: 260px;
+    top: 210px;
     position: absolute;
     text-align: justify;
     color: #222222;
     font-size: 24px;
     font-family: Josefin Sans;
     font-weight: 400;
-    line-height: 33.60px;
-    word-wrap: break-word; */
-  }
+    line-height: 33.6px;
+    word-wrap: break-word;
+}
+
+/* ----- tentang Section ----- */
+.tujuan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.tujuan .kartu svg{
+    width: 143.686px;
+    height: 143.686px;
+    flex-shrink: 0;
+}
+.tujuan .judultujuan{
+    display: flex;
+    align-items: center;
+    margin-left: 120px;
+    color: #222222;
+    font-size: 80px;
+    font-family: Noto Sans KR;
+    font-weight: 700;
+    text-decoration: underline;
+    position: relative;
+    left: 110px;
+}
+.tujuan .judultujuan svg{
+    position: relative;
+    left: -33px;
+    top: -15px;
+    z-index: -1;
+}
+.tujuan .judultujuan svg:nth-last-child(1){
+    position: relative;
+    left: 210px;
+    top: 135px;
+    z-index: 1;
+}
+
+.kartu{
+    display: flex;
+    padding: -40px;
+    align-content: space-between;
+    margin-bottom: 32;
+    z-index: -1;
+}
+.kartu img{
+    width: 436.345px;
+    height: 290.897px;
+    flex-shrink: 0;
+
+}
+.cardlist{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: space-between;
+}
+.kartu p{
+    margin-top: 10px;
+    text-align: justify;
+}
+.cardlist .judul{
+    margin-top: 32px;
+    color: #222;
+    font-family: Noto Sans KR;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 37.12px */
+}
+
+/* Divisi section */
+
+.divisi{
+    display: flex;
+    flex-direction: column;
+}
+.juduldivisi{
+    color: #222;
+    font-family: Noto Sans KR;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.juduldivisi svg{
+    width: 71.871px;
+    height: 71.871px;
+    flex-shrink: 0;
+    position: relative;
+    top: -23px;
+    left: -47px;
+    z-index: -1;
+}
+.divisi hr {
+    color: #222;
+    width: 1304px;
+    font-weight: 1000;
+    flex-shrink: 0;
+}
+.divisisection ul li{
+    display: flex;
+    align-items: center;
+    margin-right: 20;
+    text-decoration: none;
+    list-style: none;
+}
+.divisisection .judul{
+    position: relative;
+    top: 10px;
+    left: 32px;
+    color: #222;
+    font-family: Josefin Sans;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 116%; /* 37.12px */
+}
+.divisisection ul{
+    position: relative;
+    left: -30px;
+}
+.divisisection ul li a{
+    position: relative;
+    left: 20%;
+}
+.listdivisi ul li:nth-child(3) a{
+    position: relative;
+    left: 25%;
+}
+.listdivisi ul li:nth-child(7) a{
+    position: relative;
+    left: 26%;
+}
+.listdivisi ul li:nth-child(1) a,
+ul li:nth-child(9) a{
+    position: relative;
+    left: 17%;
+}
+.listdivisi hr {
+    color: #222;
+    width: 680px;
+    height: 20px;
+    flex-shrink: 0;
+}
+.divisi button{
+    text-decoration: none;
+    outline: none;
+}
 

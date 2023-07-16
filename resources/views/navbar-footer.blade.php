@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/header.css') }}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/homeLayout.css') }}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/keanggotaan.css') }}">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
   </head>
@@ -53,7 +54,7 @@
             <p class="organisasi">SCREENSHOT</p>
             <div class="textMiring">
                 <div class="miring-kiri">
-                    <marquee scrollamount="10" class="miring-kiri"> 
+                    <marquee scrollamount="10" class="miring-kiri">
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya - </span>
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya - </span>
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya - </span>
@@ -71,8 +72,8 @@
             </p>
             <ul>
                 <li><a href="mailto:ilkom.screenshot@gmail.com"><i class="bi bi-envelope-fill"></i><span>Mail</span></a></li>
-                <li><a href="https://www.instagram.com/screenshotilkom/"><i class="bi bi-instagram"></i><span>Instagram</span></a></li>
-                <li><a href="https://youtube.com/@screenshotilkom3422"><i class="bi bi-youtube"></i><span>Youtube</span></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/screenshotilkom/"><i class="bi bi-instagram"></i><span>Instagram</span></a></li>
+                <li><a target="_blank" href="https://youtube.com/@screenshotilkom3422"><i class="bi bi-youtube"></i><span>Youtube</span></a></li>
             </ul>
         </footer>
     </div>
@@ -87,6 +88,10 @@
         });
 
     </script>
+     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+     <script>
+       AOS.init();
+     </script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>
