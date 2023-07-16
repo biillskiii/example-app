@@ -53,7 +53,7 @@
             <p class="organisasi">SCREENSHOT</p>
             <div class="textMiring">
                 <div class="miring-kiri">
-                    <marquee scrollamount="10" class="miring-kiri"> 
+                    <marquee scrollamount="10" class="miring-kiri">
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya - </span>
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya - </span>
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya - </span>
@@ -71,8 +71,8 @@
             </p>
             <ul>
                 <li><a href="mailto:ilkom.screenshot@gmail.com"><i class="bi bi-envelope-fill"></i><span>Mail</span></a></li>
-                <li><a href="https://www.instagram.com/screenshotilkom/"><i class="bi bi-instagram"></i><span>Instagram</span></a></li>
-                <li><a href="https://youtube.com/@screenshotilkom3422"><i class="bi bi-youtube"></i><span>Youtube</span></a></li>
+                <li><a target="_blank" href="https://www.instagram.com/screenshotilkom/"><i class="bi bi-instagram"></i><span>Instagram</span></a></li>
+                <li><a target="_blank" href="https://youtube.com/@screenshotilkom3422"><i class="bi bi-youtube"></i><span>Youtube</span></a></li>
             </ul>
         </footer>
     </div>

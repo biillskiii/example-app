@@ -1,69 +1,97 @@
 /* ----- tentang Section ----- */
 .containerTentang {
+    width: 100%;
     display: flex;
+    height: 449px;
     position: relative;
-    background:var(--white1);
-  }
-  
-  .gambarTentangKami {
-    /* width: 624px;
-    height: 351px; */
-    /* left: 108px;
-    top: 45.78px;
-    position: absolute; */
-  }
-  
-  .posLogoQM{
-    /* width: 126.58px;
+}
+.gambarTentangKami {
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+.posLogoQM {
+    width: 126.58px;
     height: 126.58px;
     left: 1134.75px;
-    top: 66.90px;
-    position: absolute; */
-  }
-  
-  .subLogoQM {
-    /* width: 89.50px;
-    height: 89.50px;
-    left: 81px;
-    top: 36px;
+    top: 66.9px;
+    position: absolute;
+}
+
+.subLogoQM {
+    width: 89.5px;
+    height: 89.5px;
+    left: 50px;
+    top: -50px;
     position: absolute;
     transform: rotate(45deg);
     transform-origin: 0 0;
-    background: #F2AF4A; */
-  }
-  
-  .subLogoTentang {
-    /* width: 31.70px;
-    height: 55.98px;
-    left: 64px;
-    top: 56px;
+    background: #f2af4a;
+}
+
+.subLogoTentang {
+    left: 32px;
+    top: -35px;
     position: absolute;
-    font-size: 56pt; */
-  }
-  
-  .judulTentang {
-    /* left: 788px;
-    top: 124.80px;
+    font-size: 56pt;
+}
+.judulTentang {
+    left: 788px;
+    margin-top: 50px;
     position: absolute;
     color: #222222;
     font-size: 80px;
     font-family: Noto Sans KR;
     font-weight: 700;
     text-decoration: underline;
-    word-wrap: break-word; */
-  }
-  
-  .deskripsiTentang {
-    /* width: 624px;
+    word-wrap: break-word;
+}
+
+.deskripsiTentang {
+    width: 624px;
     left: 788px;
-    top: 260px;
+    top: 210px;
     position: absolute;
     text-align: justify;
     color: #222222;
     font-size: 24px;
     font-family: Josefin Sans;
     font-weight: 400;
-    line-height: 33.60px;
-    word-wrap: break-word; */
-  }
+    line-height: 33.6px;
+    word-wrap: break-word;
+}
+
+/* ----- tentang Section ----- */
+.tujuan{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
+.tujuan .judultujuan{
+    display: flex;
+    align-items: center;
+    color: #222222;
+    font-size: 80px;
+    font-family: Noto Sans KR;
+    font-weight: 700;
+    text-decoration: underline;
+}
+.tujuan .judultujuan svg{
+    position: relative;
+    left: -33px;
+    top: -15px;
+    z-index: -1;
+}
+
+.kartu{
+    display: flex;
+    padding: -30px;
+    align-content: space-between;
+}
+.kartu img{
+    width: 436.345px;
+    height: 290.897px;
+    flex-shrink: 0;
+}
 
