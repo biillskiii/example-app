@@ -71,6 +71,7 @@
 .tujuan .judultujuan{
     display: flex;
     align-items: center;
+    margin-left: 120px;
     color: #222222;
     font-size: 80px;
     font-family: Noto Sans KR;
@@ -86,12 +87,62 @@
 
 .kartu{
     display: flex;
-    padding: -30px;
+    padding: -40px;
     align-content: space-between;
+    margin-bottom: 32;
 }
 .kartu img{
     width: 436.345px;
     height: 290.897px;
+    flex-shrink: 0;
+
+}
+.cardlist{
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-content: space-between;
+}
+.kartu p{
+    margin-top: 10px;
+}
+.kartu .cardlist .judul{
+    margin-top: 32px;
+    color: var(--main, #222);
+    font-family: Noto Sans KR;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 37.12px */
+    }
+
+/* Divisi section */
+
+.divisi{
+    display: flex;
+    flex-direction: column;
+}
+.divisi .juduldivisi{
+    color: var(--main, #222);
+    font-family: Noto Sans KR;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.divisi .juduldivisi svg{
+    width: 71.871px;
+    height: 71.871px;
+    flex-shrink: 0;
+    position: relative;
+    top: -23px;
+    left: -47px;
+    z-index: -1;
+}
+.divisi hr{
+    width: 1304px;
+    height: 2px;
     flex-shrink: 0;
 }
 
