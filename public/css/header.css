@@ -6,7 +6,7 @@
 
 .organisasi {
     color: var(--main);
-    text-align:justify;
+    text-align:center;
     /* leading-trim: both;
     text-edge: cap; */
     font-family: "Noto Sans KR";
