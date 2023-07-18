@@ -25,43 +25,36 @@
                 <div class="img-container">
                     <img src="{{asset('picture/image 11.png') }}" alt="anggota">
                     <div class="img-caption">
-                        <h4>Nur Azis Kurnia R</h4>
-                        <p>Ketua</p>
+                        <h4>Kepin</h4>
+                        <p>Wakil Ketua</p>
                     </div>
                 </div>
                 <div class="img-container">
                     <img src="{{asset('picture/image 12.png') }}" alt="anggota">
                     <div class="img-caption">
-                        <h4>Nur Azis Kurnia R</h4>
-                        <p>Ketua</p>
+                        <h4>Uut</h4>
+                        <p>Bendahara</p>
                     </div>
                 </div>
                 <div class="img-container">
                     <img src="{{asset('picture/image 13.png') }}" alt="anggota">
                     <div class="img-caption">
-                        <h4>Nur Azis Kurnia R</h4>
-                        <p>Ketua</p>
+                        <h4>May</h4>
+                        <p>Bendahara</p>
                     </div>
                 </div>
                 <div class="img-container">
                     <img src="{{asset('picture/image 14.png') }}" alt="anggota">
                     <div class="img-caption">
-                        <h4>Nur Azis Kurnia R</h4>
-                        <p>Ketua</p>
+                        <h4>Nadifa</h4>
+                        <p>Sekre</p>
                     </div>
                 </div>
                 <div class="img-container">
                     <img src="{{asset('picture/image 15.png') }}" alt="anggota">
                     <div class="img-caption">
-                        <h4>Nur Azis Kurnia R</h4>
-                        <p>Ketua</p>
-                    </div>
-                </div>
-                <div class="img-container">
-                    <img src="{{asset('picture/image 15.png') }}" alt="anggota">
-                    <div class="img-caption">
-                        <h4>Nur Azis Kurnia R</h4>
-                        <p>Ketua</p>
+                        <h4>Anita</h4>
+                        <p>Sekre</p>
                     </div>
                 </div>
             </div>
