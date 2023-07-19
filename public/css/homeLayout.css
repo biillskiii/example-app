@@ -1,57 +1,52 @@
 /* ----- tentang Section ----- */
 .containerTentang {
-    width: 100%;
     display: flex;
-    height: 449px;
+    height: auto;
     position: relative;
-}
-.gambarTentangKami {
-    margin-top: 50px;
-    margin-left: 70px;
+    margin-top: 20%;
+    align-items: center;
 }
 
 .posLogoQM {
-    width: 126.58px;
-    height: 126.58px;
-    left: 1134.75px;
-    top: 66.9px;
+    width: 127px;
+    height: 127px;
+    right: 3%;
+    top: 15%;
     position: absolute;
 }
 
 .subLogoQM {
     width: 89.5px;
     height: 89.5px;
-    left: 50px;
+    /* left: -20px; */
     top: -50px;
     position: absolute;
     transform: rotate(45deg);
     transform-origin: 0 0;
     background: #f2af4a;
+    z-index: -1;
 }
 
 .subLogoTentang {
-    left: 32px;
+    left: -20px;
     top: -35px;
-    position: absolute;
+    position: relative;
     font-size: 56pt;
+    font-weight: 600;
 }
 .judulTentang {
-    left: 788px;
-    margin-top: 50px;
-    position: absolute;
     color: #222222;
     font-size: 80px;
     font-family: Noto Sans KR;
     font-weight: 700;
     text-decoration: underline;
-    word-wrap: break-word;
+}
+
+.containerTentang .desc {
+    margin-left: 5%;
 }
 
 .deskripsiTentang {
-    width: 624px;
-    left: 788px;
-    top: 210px;
-    position: absolute;
     text-align: justify;
     color: #222222;
     font-size: 24px;
@@ -62,67 +57,70 @@
 }
 
 /* ----- tentang Section ----- */
-.tujuan{
-    display: flex;
+.tujuan {
+    /* display: flex; */
+    margin-top: 15%;
+    height: auto;
     flex-direction: column;
     align-items: center;
     align-content: center;
 }
-.tujuan .kartu svg{
+/* .tujuan .kartu svg{
     width: 143.686px;
     height: 143.686px;
     flex-shrink: 0;
-}
-.tujuan .judultujuan{
+} */
+.tujuan .judultujuan {
     display: flex;
     align-items: center;
-    margin-left: 120px;
+    justify-content: center;
+    /* margin-left: 120px; */
     color: #222222;
     font-size: 80px;
     font-family: Noto Sans KR;
     font-weight: 700;
     text-decoration: underline;
     position: relative;
-    left: 110px;
+    /* left: 110px; */
 }
-.tujuan .judultujuan svg{
-    position: relative;
-    left: -33px;
-    top: -15px;
+.tujuan .judultujuan svg {
+    position: absolute;
+    right: 29%;
+    top: -15%;
     z-index: -1;
 }
-.tujuan .judultujuan svg:nth-last-child(1){
-    position: relative;
-    left: 210px;
-    top: 135px;
+.tujuan .judultujuan svg:nth-last-child(1) {
+    position: absolute;
+    right: 0;
+    top: 90%;
     z-index: 1;
 }
 
-.kartu{
-    display: flex;
-    padding: -40px;
+.kartu {
+    display: inline-flex;
     align-content: space-between;
-    margin-bottom: 32;
+    gap: 40px;
     z-index: -1;
+    margin-top: 5%;
 }
-.kartu img{
-    width: 436.345px;
-    height: 290.897px;
+.kartu img {
     flex-shrink: 0;
-
+    z-index: -1;
+    margin: 0;
 }
-.cardlist{
-    margin: 20px;
+.cardlist {
     display: flex;
     flex-direction: column;
     width: 100%;
+    z-index: -1;
     align-content: space-between;
 }
-.kartu p{
+.kartu p {
     margin-top: 10px;
     text-align: justify;
+    font-size: 18px;
 }
-.cardlist .judul{
+.cardlist .judul {
     margin-top: 32px;
     color: #222;
     font-family: Noto Sans KR;
@@ -132,13 +130,14 @@
     line-height: 116%; /* 37.12px */
 }
 
-/* Divisi section */
-
-.divisi{
+/* ===== Divisi section ===== */
+.divisi {
     display: flex;
     flex-direction: column;
+    margin-top: 8%;
+    margin-bottom: 5%;
 }
-.juduldivisi{
+.juduldivisi {
     color: #222;
     font-family: Noto Sans KR;
     font-size: 80px;
@@ -146,7 +145,7 @@
     font-weight: 700;
     line-height: normal;
 }
-.juduldivisi svg{
+.juduldivisi svg {
     width: 71.871px;
     height: 71.871px;
     flex-shrink: 0;
@@ -157,57 +156,91 @@
 }
 .divisi hr {
     color: #222;
-    width: 1304px;
+    width: 1275px;
     font-weight: 1000;
     flex-shrink: 0;
 }
-.divisisection ul li{
+
+.divisisection ul {
+    position: relative;
+    padding: 0;
+}
+.divisisection ul li {
     display: flex;
-    align-items: center;
-    margin-right: 20;
+    justify-content: flex-start;
+    width: 54%;
     text-decoration: none;
     list-style: none;
+    margin-bottom: 20px;
 }
-.divisisection .judul{
+
+.divisisection .judul {
     position: relative;
-    top: 10px;
-    left: 32px;
+    width: 80%;
+    top: 25px;
+    padding: 0 7%;
     color: #222;
-    font-family: Josefin Sans;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: 116%; /* 37.12px */
-}
-.divisisection ul{
-    position: relative;
-    left: -30px;
-}
-.divisisection ul li a{
-    position: relative;
-    left: 20%;
-}
-.listdivisi ul li:nth-child(3) a{
-    position: relative;
-    left: 25%;
-}
-.listdivisi ul li:nth-child(7) a{
-    position: relative;
-    left: 26%;
-}
-.listdivisi ul li:nth-child(1) a,
-ul li:nth-child(9) a{
-    position: relative;
-    left: 17%;
-}
-.listdivisi hr {
-    color: #222;
-    width: 680px;
-    height: 20px;
-    flex-shrink: 0;
-}
-.divisi button{
-    text-decoration: none;
-    outline: none;
+    line-height: 116%;
+    /* 37.12px */
 }
 
+.listdivisi hr {
+    color: #222;
+    width: 55%;
+    height: 20px;
+    flex-shrink: 0;
+    margin: 10px 0;
+}
+.divisisection ul li button {
+    opacity: 30%;
+    background-color: white;
+    outline: white;
+}
+.divisisection ul li button:hover {
+    opacity: 100%;
+    background-color: white;
+    outline: white;
+    border: transparent;
+} 
+.divisisection ul li button:focus {
+    opacity: 100%;
+    background-color: white;
+    outline: white;
+}
+
+.listdivisi #ph-card,
+#jurnal-card,
+#sinema-card,
+#foto-card,
+#dna-card {
+    position: absolute;
+    left: 62.3%;
+    top: 0%;
+}
+.kartu-judul {
+    color: #222;
+    font-family: "Noto Sans KR";
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 37.12px */
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.kartu-text {
+    color: #383838;
+    text-align: justify;
+    font-family: "Josefin Sans";
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 17.5px */
+}
+.listdivisi .kartu {
+    width: 30rem;
+    display: flex;
+    flex-direction: column;
+}
