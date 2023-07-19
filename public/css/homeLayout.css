@@ -129,8 +129,9 @@
     line-height: 116%; /* 37.12px */
 }
 
-/* ===== Divisi section ===== */
 
+
+/* ===== Divisi section ===== */
 .divisi{
     display: flex;
     flex-direction: column;
@@ -183,7 +184,7 @@
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: 116%; 
+    line-height: 116%;
     /* 37.12px */
 }
 
@@ -194,8 +195,38 @@
     flex-shrink: 0;
     margin: 10px 0;
 }
-.divisi button{
-    text-decoration: none;
-    outline: none;
+.listdivisi #ph-card,
+#jurnal-card,
+#sinema-card,
+#foto-card,
+#dna-card{
+    position: absolute;
+    right: 5%;
+    top: 0%;
 }
+.kartu-judul{
+    color: #222;
+    font-family: Noto Sans KR;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 116%; /* 37.12px */
+    margin-top: 0%;
+    margin-bottom: 5%;
+}
+.kartu-text{
+    color: #383838;
+    text-align: justify;
+    font-family: Josefin Sans;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 125%; /* 17.5px */
+}
+.listdivisi .kartu{
+    width: 30rem;
+    display: flex;
+    flex-direction:column;
+}
+
 

@@ -7,7 +7,7 @@
 <div class="home">
     <!--  section-->
     <div class="containerTentang" >
-        
+
         {{-- NANTI DIGANTI TAMPILAN VIDEO --}}
         <div class="gambarTentangKami" data-aos="fade-right">
             <img src={{asset('picture/Tentang.png')}} class="d-block" alt="">
@@ -92,7 +92,7 @@
         </div>
     </div>
     <br><br>
-    
+
     <!-- divisi section -->
     <div class="divisi" data-aos="fade-down">
         <p class="juduldivisi">DIVISI SCREENSHOT
@@ -113,13 +113,19 @@
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M52.0002 2.59961L60.6669 11.2663V60.7614H43.3336V11.2663L52.0002 2.59961ZM47.3336 12.9231V56.7614H56.6669V12.9231L52.0002 8.25646L47.3336 12.9231Z" fill="#222222"/>
                         </svg>
                         <p class="judul">PENGURUS HARIAN</p>
-                        <a id="ph">
+                        <a id="ph" data-aos="fade-down">
                             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
                             </svg>
                         </a>
                         <div id="ph-card">
-                            halo
+                            <div class="kartu">
+                                <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 style="font-weight: 700" class="kartu-judul">PENGURUS HARIAN</h5>
+                                  <p class="kartu-text">Bertanggung jawab atas arahan dan pengelolaan keseluruhan organisasi, mengelola dan mendokumentasikan administrasi, serta mengelola keuangan organisasi.</p>
+                                </div>
+                            </div>
                         </div>
                     </li>
                     <hr />
@@ -133,13 +139,18 @@
                         </svg>
                         <p class="judul">JURNALISTIK</p>
                         <a id="jurnal">
-                          
                             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
                             </svg>
                         </a>
                         <div id="jurnal-card">
-                            halo
+                            <div class="kartu">
+                                <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 style="font-weight: 700" class="kartu-judul">JURNALISTIK</h5>
+                                  <p class="kartu-text">Bertanggung jawab atas arahan dan pengelolaan keseluruhan organisasi, mengelola dan mendokumentasikan administrasi, serta mengelola keuangan organisasi.</p>
+                                </div>
+                            </div>
                         </div>
                     </li>
                     <hr />
@@ -154,13 +165,18 @@
                         </svg>
                         <p class="judul">SINEMATOGRAFI</p>
                         <a id="sinema">
-               
                             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
                             </svg>
                         </a>
                         <div id="sinema-card">
-                            halo
+                            <div class="kartu">
+                                <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 style="font-weight: 700" class="kartu-judul">SINEMATOGRAFI</h5>
+                                  <p class="kartu-text">Bertanggung jawab atas arahan dan pengelolaan keseluruhan organisasi, mengelola dan mendokumentasikan administrasi, serta mengelola keuangan organisasi.</p>
+                                </div>
+                            </div>
                         </div>
                     </li>
                     <hr />
@@ -173,13 +189,18 @@
                         </svg>
                         <p class="judul">FOTOGRAFI</p>
                         <a id="foto">
-          
                             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
                             </svg>
                         </a>
                         <div id="foto-card">
-                            halo
+                            <div class="kartu">
+                                <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 style="font-weight: 700" class="kartu-judul">FOTOGRAFI</h5>
+                                  <p class="kartu-text">Bertanggung jawab atas arahan dan pengelolaan keseluruhan organisasi, mengelola dan mendokumentasikan administrasi, serta mengelola keuangan organisasi.</p>
+                                </div>
+                            </div>
                         </div>
                     </li>
                     <hr />
@@ -194,13 +215,18 @@
                         </svg>
                         <p class="judul">DESAIN & ANIMASI</p>
                         <a id="dna">
-       
                             <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
                                 <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
                             </svg>
                         </a>
                         <div id="dna-card">
-                            halo
+                            <div class="kartu">
+                                <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
+                                <div class="card-body">
+                                  <h5 style="font-weight: 700" class="kartu-judul">DESAIN & ANIMASI</h5>
+                                  <p class="kartu-text">Bertanggung jawab atas arahan dan pengelolaan keseluruhan organisasi, mengelola dan mendokumentasikan administrasi, serta mengelola keuangan organisasi.</p>
+                                </div>
+                            </div>
                         </div>
                     </li>
                 </ul>
