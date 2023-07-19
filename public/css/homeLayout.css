@@ -195,6 +195,22 @@
     flex-shrink: 0;
     margin: 10px 0;
 }
+.divisisection ul li button{
+    opacity: 30%;
+    background-color: white;
+    outline: white;
+}
+.divisisection ul li button:hover{
+    opacity: 100%;
+    background-color: white;
+    outline: white;
+}
+.divisisection ul li button:focus{
+    opacity: 100%;
+    background-color: white;
+    outline: white;
+}
+
 .listdivisi #ph-card,
 #jurnal-card,
 #sinema-card,

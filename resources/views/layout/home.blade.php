@@ -113,11 +113,9 @@
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M52.0002 2.59961L60.6669 11.2663V60.7614H43.3336V11.2663L52.0002 2.59961ZM47.3336 12.9231V56.7614H56.6669V12.9231L52.0002 8.25646L47.3336 12.9231Z" fill="#222222"/>
                         </svg>
                         <p class="judul">PENGURUS HARIAN</p>
-                        <a id="ph" data-aos="fade-down">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
-                            </svg>
-                        </a>
+                        <button id="ph" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
+                        </svg></button>
                         <div id="ph-card">
                             <div class="kartu">
                                 <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
@@ -138,11 +136,9 @@
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M30.0002 61.0947V53.0947H34.0002V61.0947H30.0002Z" fill="#222222"/>
                         </svg>
                         <p class="judul">JURNALISTIK</p>
-                        <a id="jurnal">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
-                            </svg>
-                        </a>
+                        <button id="jurnal" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
+                        </svg></button>
                         <div id="jurnal-card">
                             <div class="kartu">
                                 <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
@@ -164,11 +160,9 @@
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M56.6669 56.0947V40.0947H60.6669V56.0947H56.6669Z" fill="#222222"/>
                         </svg>
                         <p class="judul">SINEMATOGRAFI</p>
-                        <a id="sinema">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
-                            </svg>
-                        </a>
+                        <button id="sinema" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
+                        </svg></button>
                         <div id="sinema-card">
                             <div class="kartu">
                                 <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
@@ -188,11 +182,9 @@
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M27.6631 24.2908C29.0381 23.7212 30.5119 23.4281 32.0002 23.4281C33.4885 23.4281 34.9623 23.7212 36.3373 24.2908C37.7123 24.8604 38.9617 25.6952 40.0141 26.7476C41.0665 27.8 41.9013 29.0493 42.4708 30.4244C43.0404 31.7994 43.3335 33.2731 43.3335 34.7614C43.3335 36.2497 43.0404 37.7235 42.4708 39.0985C41.9013 40.4735 41.0665 41.7229 40.0141 42.7753C38.9617 43.8277 37.7123 44.6625 36.3373 45.2321C34.9623 45.8016 33.4885 46.0948 32.0002 46.0948C30.5119 46.0948 29.0381 45.8016 27.6631 45.2321C26.2881 44.6625 25.0387 43.8277 23.9863 42.7753C22.9339 41.7229 22.0991 40.4735 21.5296 39.0985C20.96 37.7235 20.6669 36.2497 20.6669 34.7614C20.6669 33.2731 20.96 31.7994 21.5296 30.4244C22.0991 29.0493 22.9339 27.8 23.9863 26.7476C25.0387 25.6952 26.2881 24.8604 27.6631 24.2908ZM32.0002 27.4281C31.0372 27.4281 30.0836 27.6178 29.1939 27.9863C28.3041 28.3549 27.4957 28.895 26.8148 29.576C26.1338 30.2569 25.5936 31.0654 25.2251 31.9551C24.8566 32.8448 24.6669 33.7984 24.6669 34.7614C24.6669 35.7245 24.8566 36.6781 25.2251 37.5678C25.5936 38.4575 26.1338 39.2659 26.8148 39.9469C27.4957 40.6278 28.3041 41.168 29.1939 41.5366C30.0836 41.9051 31.0372 42.0948 32.0002 42.0948C32.9632 42.0948 33.9168 41.9051 34.8065 41.5366C35.6963 41.168 36.5047 40.6278 37.1857 39.9469C37.8666 39.2659 38.4068 38.4575 38.7753 37.5678C39.1439 36.6781 39.3335 35.7245 39.3335 34.7614C39.3335 33.7984 39.1439 32.8448 38.7753 31.9551C38.4068 31.0654 37.8666 30.2569 37.1857 29.576C36.5047 28.895 35.6963 28.3549 34.8065 27.9863C33.9168 27.6178 32.9632 27.4281 32.0002 27.4281Z" fill="#222222"/>
                         </svg>
                         <p class="judul">FOTOGRAFI</p>
-                        <a id="foto">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
-                            </svg>
-                        </a>
+                        <button id="foto" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
+                        </svg></button>
                         <div id="foto-card">
                             <div class="kartu">
                                 <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
@@ -214,11 +206,9 @@
                             <path fill-rule="evenodd" clip-rule="evenodd" d="M26.7275 39.822L6.72752 59.822L4.6062 57.7007L24.6062 37.7007L26.7275 39.822Z" fill="#222222"/>
                         </svg>
                         <p class="judul">DESAIN & ANIMASI</p>
-                        <a id="dna">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
-                                <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
-                            </svg>
-                        </a>
+                        <button id="dna" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
+                        </svg></button>
                         <div id="dna-card">
                             <div class="kartu">
                                 <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
