@@ -155,7 +155,7 @@
 }
 .divisi hr {
     color: #222;
-    width: 1304px;
+    width: 1275px;
     font-weight: 1000;
     flex-shrink: 0;
 }
@@ -209,9 +209,7 @@
     background-color: white;
     outline: white;
 }
-.divisisection ul li button:focus-visible{
-    opacity: 100%;
-}
+
 .listdivisi #ph-card,
 #jurnal-card,
 #sinema-card,
@@ -223,7 +221,7 @@
 }
 .kartu-judul {
     color: #222;
-    font-family: Noto Sans KR;
+    font-family: "Noto Sans KR";
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -234,7 +232,7 @@
 .kartu-text {
     color: #383838;
     text-align: justify;
-    font-family: Josefin Sans;
+    font-family: "Josefin Sans";
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
