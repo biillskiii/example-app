@@ -137,7 +137,7 @@
                         </svg>
                         <p class="judul">JURNALISTIK</p>
                         <button id="jurnal" class="btn btn-light"><svg xmlns="http://www.w3.org/2000/svg" width="80" height="81" viewBox="0 0 80 81" fill="none">
-                            <path fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
+                            <path id="button" fill-rule="evenodd" clip-rule="evenodd" d="M67.1266 41.7829H8.17871V38.4066H67.1264L52.0017 23.2819L54.389 20.8945L73.5894 40.0949L54.389 59.2952L52.0017 56.9078L67.1266 41.7829Z" fill="#222222"/>
                         </svg></button>
                         <div id="jurnal-card">
                             <div class="kartu">
