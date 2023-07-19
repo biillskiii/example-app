@@ -75,18 +75,17 @@
             </div>
             <div class="cardlist">
                 <img src="{{asset('picture/tujuan.png')}}" alt="">
-                <p class="judul">SHARING EXPERIENCE</p>
-                <p>Sebagai media berbagi pengalaman untuk civitas akademika baik mahasiswa,
-                    dosen maupun cendekiawan pada umumnya dalam
-                    menghadapi fenomena.
+                <p class="judul">EXPRESSING IDEAS</p>
+                <p>Sebagai media penyampai ide dan gagasan yang berkaitan dengan pikiran 
+                    yang berkembang di masyarakat baik didalam maupun
+                    diluar kampus.
                 </p>
             </div>
             <div class="cardlist">
                 <img src="{{asset('picture/tujuan.png')}}" alt="">
-                <p class="judul">SHARING EXPERIENCE</p>
-                <p>Sebagai media berbagi pengalaman untuk civitas akademika baik mahasiswa,
-                    dosen maupun cendekiawan pada umumnya dalam
-                    menghadapi fenomena.
+                <p class="judul">EMPOWERING SKILLS</p>
+                <p>Sebagai media penyalur aspirasi minat dan bakat 
+                    mahasiswa dalam rangka ikut serta memperluas wawasan dalam bidang keilmuan.
                 </p>
             </div>
         </div>
@@ -144,7 +143,9 @@
                                 <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 style="font-weight: 700" class="kartu-judul">JURNALISTIK</h5>
-                                  <p class="kartu-text">Bertanggung jawab atas arahan dan pengelolaan keseluruhan organisasi, mengelola dan mendokumentasikan administrasi, serta mengelola keuangan organisasi.</p>
+                                  <p class="kartu-text">Bertanggung jawab atas produksi konten berita, penyusunan laporan, 
+                                    dan pengelolaan aspek jurnalistik dalam berbagai platform media. Divisi ini memiliki peran penting 
+                                    dalam menghasilkan konten berita yang akurat, relevan, dan menarik bagi audiens.</p>
                                 </div>
                             </div>
                         </div>
@@ -168,7 +169,9 @@
                                 <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 style="font-weight: 700" class="kartu-judul">SINEMATOGRAFI</h5>
-                                  <p class="kartu-text">Bertanggung jawab atas arahan dan pengelolaan keseluruhan organisasi, mengelola dan mendokumentasikan administrasi, serta mengelola keuangan organisasi.</p>
+                                  <p class="kartu-text">Bertanggung jawab khusus dalam menghasilkan kualitas visual yang menarik 
+                                    dan mengesankan dalam karya sinematografi. Berfokus pada pembuatan film, produksi video, 
+                                    dan pengelolaan aspek visual dalam produksi audiovisual.</p>
                                 </div>
                             </div>
                         </div>
@@ -190,7 +193,9 @@
                                 <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 style="font-weight: 700" class="kartu-judul">FOTOGRAFI</h5>
-                                  <p class="kartu-text">Bertanggung jawab atas arahan dan pengelolaan keseluruhan organisasi, mengelola dan mendokumentasikan administrasi, serta mengelola keuangan organisasi.</p>
+                                  <p class="kartu-text">Bertanggung jawab khusus dalam mengelola dan menciptakan karya-karya fotografi 
+                                    yang berkaitan dengan kegiatan organisasi. Divisi ini berperan penting dalam menghasilkan gambar dan 
+                                    dokumentasi yang menarik, berkualitas tinggi, dan relevan untuk keperluan komunikasi dan pemasaran organisasi.</p>
                                 </div>
                             </div>
                         </div>
@@ -214,7 +219,9 @@
                                 <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
                                 <div class="card-body">
                                   <h5 style="font-weight: 700" class="kartu-judul">DESAIN & ANIMASI</h5>
-                                  <p class="kartu-text">Bertanggung jawab atas arahan dan pengelolaan keseluruhan organisasi, mengelola dan mendokumentasikan administrasi, serta mengelola keuangan organisasi.</p>
+                                  <p class="kartu-text">Divisi ini memiliki tanggung jawab utama dalam menciptakan konten visual 
+                                    yang menarik, kreatif, dan berkesan. Berfokus pada pengembangan konsep desain visual dan pembuatan 
+                                    animasi dalam berbagai media, seperti gambar, grafis, animasi 2D/3D, dan efek visual.</p>
                                 </div>
                             </div>
                         </div>
