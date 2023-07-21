@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+.judul {
+    
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+}
+.Title{
+    height: 200px;
+}
+.Title p{
+    color: var(--main, #222);
+    font-family: Josefin Sans;
+    font-size: 24px;
+    font-style: normal;
+    line-height: normal;
+    font-weight: 380;
+    margin-top: 50px;
+
+}
+.Title h1{
+    color: var(--main, #222);
+    font-family: Noto Sans KR;
+    font-size: 134px;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: 5.36px;
+    font-weight: 700;
+    margin-top: -40px;
+
+}
+
+    
+.top-boxes{
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, equal width */
+    column-gap: 20px; /* Adjust as needed */
+    row-gap: 50px;
+    column-gap: 50px;
+    margin-top: 50px;
+    margin-bottom: 80px;
+    justify-items: center; /* Center the items horizontally */
+    align-items: center;
+}
+    
+.bottom-boxes {
+    display: grid;
+    grid-template-columns: 1fr 1fr; /* Two columns, equal width */
+    row-gap: 50px;
+    column-gap: 50px;
+    justify-items: center; /* Center the items horizontally */
+    align-items: center;
+}
+
+.box {
+    width: 412px;
+    height: 288px;
+    background-image: url(../assets/components/dakiCempe.svg);
+    font-size: 30px;
+    box-shadow: 0px 4px 20px 0px rgba(34, 34, 34, 0.10);
+}
+    
+    .subbox{
+        margin-top: 198px; 
+        width: 412px;
+        height: 90px;
+        flex-shrink: 0;
+        background: #FEFEFE;
+        box-shadow: 0px 4px 20px 0px rgba(34, 34, 34, 0.10);
+        padding-top: 2px;
+        display: flex;
+        align-items: center;
+    }
+    
+    .porto{
+        color: var(--main, #222);
+        font-family: Noto Sans KR;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: normal;
+        margin-top: -10px;
+        margin-left: 10px;
+    }  
+    
+    .subporto{
+        color: var(--hover, #383838);
+        font-family: Josefin Sans;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 300;
+        line-height: normal;
+        margin-top: 40px;
+        margin-left: -165px;
+    }
+
+    .gambarPanah{
+        width: 40px;
+        height: 20px;
+        margin-left: 230px;
+    }
+    .gambarin{
+        width: 412px;
+        height: 288px;
+
+    }
+  

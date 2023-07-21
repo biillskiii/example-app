@@ -16,6 +16,7 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/header.css') }}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/homeLayout.css') }}">
     <link rel="stylesheet" type="text/css" href="{{asset('css/keanggotaan.css') }}">
+    <link rel="stylesheet" type="text/css" href="{{asset('css/karya.css') }}">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous">
@@ -29,7 +30,7 @@
             </div>
             <ul class="navmenu">
                 <li class="navitem"><a href="/keanggotaan">Keanggotaan</a></li>
-                <li class="navitem"><a href="#portofolio">Portofolio</a></li>
+                <li class="navitem"><a href="/portofolio">Portofolio</a></li>
                 <li class="navitem"><a href="#event">Event</a></li>
             </ul>
             <a class="btn btn-light" type="submit">Bergabung</a>

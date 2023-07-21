@@ -23,3 +23,6 @@ Route::get('/', function () {
 Route::get('/keanggotaan', function () {
     return view('keanggotaanLayout');
 });
+Route::get('/portofolio', function () {
+    return view('karya');
+});
