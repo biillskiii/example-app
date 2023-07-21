@@ -7,49 +7,47 @@
 <div class="karya">
     <div class="judul">
         <div class="Title">
-        <p>Mempersembahkan karya-karya hebat yang kami hasilkan</p>
-        <h1 style="w-700">KARYA KAMI</h1>
+            <p>Mempersembahkan karya-karya hebat yang kami hasilkan</p>
+            <h1 style="w-700">KARYA KAMI</h1>
         </div>
     </div>
 
-    <div class="isi">
-        <div class="top-boxes">
-            <div class="box">
-            <div class="subbox">
-                <p class="porto">LBRN Exclusive</p>
-                <p class="subporto">UI/UX Design, Desain & Animasi/p>
-                <p></p>
-                <img src={{asset('assets/components/panahin.svg')}} class="gambarPanah" alt="" />
+    <div class="list-karya">
+        <div class="content-karya">
+            <img class="preview-container" src={{asset('/picture/exampleIllustration.webp')}} class="preview-karya" alt="" />
+            <div class="info-karya">
+                <div class="deskripsi">
+                    <p class="judul-karya">Abstract Face</p>
+                    <p class="bidang-karya">Digital Art Desain & Animasi</p>
+                </div>
+                <a href="#karya" class="link"> <i class="bi bi-arrow-right"></i> </a>
             </div>
         </div>
 
-        <div class="box">
-            <div class="subbox">
-                <p class="porto">LBRN Exclusive</p>
-                <p class="subporto">UI/UX Design, Desain & Animasi/p>
-                <p></p>
-                <img src={{asset('assets/components/panahin.svg')}} class="gambarPanah" alt="" />
+        <div class="content-karya">
+            <img class="preview-container"src={{asset('/picture/exampleArt.webp')}} class="preview-karya" alt="" />
+            <div class="info-karya">
+                <div class="deskripsi">
+                    <p class="judul-karya">World of Virtual Reality</p>
+                    <p class="bidang-karya">Digital Art Desain & Animasi</p>
+                </div>
+                <a href="#karya" class="link"> <i class="bi bi-arrow-right"></i> </a>
             </div>
         </div>
-    </div>
-    <div class="bottom-boxes">
-        <div class="box">
-            <div class="subbox">
-                <p class="porto">LBRN Exclusive</p>
-                <p class="subporto">UI/UX Design, Desain & Animasi/p>
-                <p></p>
-                <img src={{asset('assets/components/panahin.svg')}} class="gambarPanah" alt="" />
+
+        <div class="content-karya">
+            <img class="preview-container"src={{asset('/picture/gubug.jpg')}} class="preview-karya" alt="" />
+            <div class="info-karya">
+                <div class="deskripsi">
+                    <p class="judul-karya">Stand Alone</p>
+                    <p class="bidang-karya">Landscape Photoghraphy</p>
+                </div>
+                <a href="#karya" class="link"> <i class="bi bi-arrow-right"></i> </a>
             </div>
         </div>
-        <div class="box">
-            <div class="subbox">
-                <p class="porto">LBRN Exclusive</p>
-                <p class="subporto">UI/UX Design, Desain & Animasi/p>
-                <p></p>
-                <img src={{asset('assets/components/panahin.svg')}} class="gambarPanah" alt="" />
-            </div>
-        </div>
-    </div>
+        {{-- AND MOREE --}}
+
+        
     </div>
 </div>
 
