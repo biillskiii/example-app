@@ -3,11 +3,13 @@
 
 .karya {
     margin-bottom: 10%;
+    margin-top: 20px;
 }
 .judul {
     align-items: center;
     justify-content: center;
     text-align: center;
+    margin-bottom: 8%;
 }
 
 .Title p{
@@ -22,16 +24,19 @@
 .Title h1{
     color: var(--main);
     font-family: Noto Sans KR;
-    font-size: 134px;
+    font-size: 120px;
     font-style: normal;
     line-height: normal;
-    letter-spacing: 5.36px;
+    letter-spacing: 10px;
     font-weight: 700;
-    margin-top: -40px;
+    text-transform: uppercase;
+    white-space: nowrap;
+    /* overflow: auto; */
+    /* margin-top: -40px; */
 
 }
 
-.karya .list-karya{
+.list-karya{
     width: 100%;
     display: grid;
     grid-template-columns: auto auto;
@@ -39,7 +44,7 @@
     row-gap: 40px;
     justify-content: space-evenly;
     align-content: space-evenly;
-    margin-top: 2.5%;
+    margin-top: 5%;
 }
 
 .content-karya{
