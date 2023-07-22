@@ -9,7 +9,7 @@
                 <span>Multimedia & Jurnalistik - Hima Ilmu Komputer - Fakultas Matematika dan Ilmu Pengetahuan Alam - Universitas Negeri Semarang&nbsp;&nbsp;&nbsp;</span>
             </div>
         </div>
-        <div class="main-foto">
+        <div class="main-foto" data-aos="fade-up">
             <img src="{{asset('picture/image 6.png') }}" alt="image">
         </div>
         <div class="textMiring">
@@ -29,8 +29,6 @@
             </div>
         </div>
     </div>
-    
-    @yield('content')
 
 </div>
 

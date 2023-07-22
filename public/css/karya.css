@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
 
 .karya {
-    margin-bottom: 10%;
+    margin-bottom: 5%;
     margin-top: 20px;
 }
 .judul {
@@ -53,7 +53,7 @@
     background-color: var(--white2);
     justify-content: center;
     align-items:stretch;
-    box-shadow: 0px 5px 20px 10px rgba(34, 34, 34, 0.10);
+    box-shadow: 5px 5px 15px 5px rgba(34, 34, 34, 0.10);
 
 }
 .content-karya .preview-container{

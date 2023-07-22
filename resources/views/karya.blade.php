@@ -22,7 +22,7 @@
     </div>
 
     <div class="list-karya">
-        <div class="content-karya">
+        <div class="content-karya" data-aos="zoom-in">
             <img class="preview-container" src={{asset('/picture/exampleIllustration.webp')}} class="preview-karya" alt="" />
             <div class="info-karya">
                 <div class="deskripsi">
@@ -33,7 +33,7 @@
             </div>
         </div>
 
-        <div class="content-karya">
+        <div class="content-karya" data-aos="zoom-in">
             <img class="preview-container"src={{asset('/picture/exampleArt.webp')}} class="preview-karya" alt="" />
             <div class="info-karya">
                 <div class="deskripsi">
@@ -44,7 +44,7 @@
             </div>
         </div>
 
-        <div class="content-karya">
+        <div class="content-karya" data-aos="zoom-in">
             <img class="preview-container"src={{asset('/picture/gubug.jpg')}} class="preview-karya" alt="" />
             <div class="info-karya">
                 <div class="deskripsi">

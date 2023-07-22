@@ -50,9 +50,9 @@
 
 <!-- ===== Footer Section ===== -->
         <div class="textbawah">
-            <p class="thanks">Thanks For Scrolling</p>
-            <p class="organisasi">SCREENSHOT</p>
-            <div class="textMiring">
+            <p class="thanks" data-aos="fade-down">Thanks For Scrolling</p>
+            <p class="organisasi" data-aos="fade-up">SCREENSHOT</p>
+            <div class="textMiring" data-aos="zoom-in">
                 <div class="miring-kiri">
                     <div class="marquee" scrollamount="10" class="miring-kiri"> 
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>

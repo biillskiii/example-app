@@ -21,7 +21,7 @@
     </div>
 
     <div class="list-event">
-        <div class="content-event">
+        <div class="content-event" data-aos="zoom-in">
             <img class="preview-container" src={{asset('/picture/eventTemplate.webp')}} class="preview-karya" alt="" />
             <div class="info-event">
                 <p class="judul">Liputan ILKOM</p>
@@ -38,7 +38,8 @@
                 <a href="#event" class="link"> Lihat </a>
             </div>
         </div>
-        <div class="content-event">
+
+        <div class="content-event" data-aos="zoom-in">
             <img class="preview-container" src={{asset('/picture/eventTemplate.webp')}} class="preview-karya" alt="" />
             <div class="info-event">
                 <p class="judul">Larut DnA</p>
@@ -54,7 +55,8 @@
                 <a href="#event" class="link"> Daftar Acara </a>
             </div>
         </div>
-        <div class="content-event">
+
+        <div class="content-event" data-aos="zoom-in">
             <img class="preview-container" src={{asset('/picture/eventTemplate.webp')}} class="preview-karya" alt="" />
             <div class="info-event">
                 <p class="judul">Screen Shot 2022</p>
@@ -70,7 +72,8 @@
                 <a href="#event" class="link"> Lihat </a>
             </div>
         </div>
-        <div class="content-event">
+        
+        <div class="content-event" data-aos="zoom-in">
             <img class="preview-container" src={{asset('/picture/eventTemplate.webp')}} class="preview-karya" alt="" />
             <div class="info-event">
                 <p class="judul">Past Event</p>

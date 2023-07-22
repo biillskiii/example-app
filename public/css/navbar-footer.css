@@ -99,6 +99,7 @@ nav .btn-light {
     font-weight: 600;
     line-height: normal;
     margin-right: 5%; 
+    border-radius: 0;
 }
 nav .btn-light:hover{
     background-color: var(--red);
