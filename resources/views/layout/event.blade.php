@@ -35,7 +35,7 @@
                     <p class="waktu"><i class="bi bi-alarm"></i>18 Mei 2023</p>
                     <p class="tempat"><i class="bi bi-geo-alt"></i>Lapangan Futsal Merdeka</p>
                 </div>
-                <a href="#karya" class="link"> Lihat </a>
+                <a href="#event" class="link"> Lihat </a>
             </div>
         </div>
         <div class="content-event">
@@ -51,7 +51,7 @@
                     <p class="waktu"><i class="bi bi-alarm"></i>15 Juli 2023</p>
                     <p class="tempat"><i class="bi bi-geo-alt"></i>Zoom - Online</p>
                 </div>
-                <a href="#karya" class="link"> Daftar Acara </a>
+                <a href="#event" class="link"> Daftar Acara </a>
             </div>
         </div>
         <div class="content-event">
@@ -67,7 +67,7 @@
                     <p class="waktu"><i class="bi bi-alarm"></i>22 Februari 2023</p>
                     <p class="tempat"><i class="bi bi-geo-alt"></i>-</p>
                 </div>
-                <a href="#karya" class="link"> Lihat </a>
+                <a href="#event" class="link"> Lihat </a>
             </div>
         </div>
         <div class="content-event">
@@ -83,11 +83,9 @@
                     <p class="waktu"><i class="bi bi-alarm"></i>-</p>
                     <p class="tempat"><i class="bi bi-geo-alt"></i>-</p>
                 </div>
-                <a href="#karya" class="link"> Lihat </a>
+                <a href="#event" class="link"> Lihat </a>
             </div>
         </div>
-
-
         {{-- AND MOREE --}}
 
         
