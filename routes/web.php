@@ -26,3 +26,6 @@ Route::get('/keanggotaan', function () {
 Route::get('/portofolio', function () {
     return view('karya');
 });
+Route::get('/info-acara', function () {
+    return view('layout/event');
+});

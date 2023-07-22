@@ -1,7 +1,9 @@
 @extends('navbar-footer')
 @section('layout')
 @section('title', 'keanggotaan')
-
+@push('section-scripts')
+    <link rel="stylesheet" type="text/css" href="{{asset('css/karya.css') }}">
+@endpush
 
 {{-- Portofolio Page --}}
 <div class="karya">

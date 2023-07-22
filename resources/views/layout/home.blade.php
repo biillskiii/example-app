@@ -1,8 +1,10 @@
 @extends('navbar-footer')
 @section('layout')
 @section('title', 'home')
-
 @include('header')
+@push('section-scripts')
+    <link rel="stylesheet" type="text/css" href="{{asset('css/homeLayout.css') }}">
+@endpush
 
 <div class="home">
     <!--  section-->

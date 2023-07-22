@@ -1,8 +1,10 @@
 @extends('navbar-footer')
 @section('layout')
 @section('title', 'keanggotaan')
-
 @include('header')
+@push('section-scripts')
+    <link rel="stylesheet" type="text/css" href="{{asset('css/keanggotaan.css') }}">
+@endpush
 
 <!-- card member -->
         <div class="card-member">
