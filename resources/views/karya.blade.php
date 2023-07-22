@@ -22,16 +22,6 @@
     </div>
 
     <div class="list-karya">
-        <div class="content-karya" data-aos="zoom-in">
-            <img class="preview-container" src={{asset('/picture/exampleIllustration.webp')}} class="preview-karya" alt="" />
-            <div class="info-karya">
-                <div class="deskripsi">
-                    <p class="judul-karya">Abstract Face</p>
-                    <p class="bidang-karya">Digital Art Desain & Animasi</p>
-                </div>
-                <a href="#karya" class="link"> <i class="bi bi-arrow-right"></i> </a>
-            </div>
-        </div>
 
         <div class="content-karya" data-aos="zoom-in">
             <img class="preview-container"src={{asset('/picture/exampleArt.webp')}} class="preview-karya" alt="" />
@@ -50,6 +40,17 @@
                 <div class="deskripsi">
                     <p class="judul-karya">Stand Alone</p>
                     <p class="bidang-karya">Landscape Photoghraphy</p>
+                </div>
+                <a href="#karya" class="link"> <i class="bi bi-arrow-right"></i> </a>
+            </div>
+        </div>
+
+        <div class="content-karya" data-aos="zoom-in">
+            <img class="preview-container"src={{asset('/picture/karyaTemplate.webp')}} class="preview-karya" alt="" />
+            <div class="info-karya">
+                <div class="deskripsi">
+                    <p class="judul-karya">Judul Karya</p>
+                    <p class="bidang-karya">Jenis Bidang Karya</p>
                 </div>
                 <a href="#karya" class="link"> <i class="bi bi-arrow-right"></i> </a>
             </div>

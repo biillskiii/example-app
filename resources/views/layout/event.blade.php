@@ -83,8 +83,8 @@
                             <span class="deskripsi">Belum ada deskripsi&nbsp;&nbsp;&nbsp;</span>
                         </div>
                     </div>
-                    <p class="waktu"><i class="bi bi-alarm"></i>-</p>
-                    <p class="tempat"><i class="bi bi-geo-alt"></i>-</p>
+                    <p class="waktu"><i class="bi bi-alarm"></i>Waktu</p>
+                    <p class="tempat"><i class="bi bi-geo-alt"></i>Tempat</p>
                 </div>
                 <a href="#event" class="link"> Lihat </a>
             </div>
