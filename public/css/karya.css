@@ -39,7 +39,8 @@
 .list-karya{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: 608px 608px;
+    grid-auto-rows: 500px;
     column-gap: 40px;
     row-gap: 40px;
     justify-content: space-evenly;
@@ -48,8 +49,6 @@
 }
 
 .content-karya{
-    width: 608px;
-    height: 500px;
     background-color: var(--white2);
     justify-content: center;
     align-items:stretch;
@@ -100,10 +99,11 @@
     text-align: end;
     font-size: 60px;
     color: var(--main);
+    &:hover{
+        color: var(--hover);
+    }
 }
-.info-karya a:hover{
-    color: var(--hover);
-}
+
 
 /* @keyframes slideText {
     0%{

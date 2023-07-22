@@ -26,7 +26,8 @@
 .list-event{
     width: 100%;
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns: 400px 400px 400px;
+    grid-auto-rows: 600px;
     column-gap: 30px;
     row-gap: 30px;
     justify-content: space-evenly;
@@ -34,36 +35,34 @@
 }
 
 .content-event{
-    width: 400px;
-    height: 600px;
     background-color: var(--white2);
     justify-content: center;
     align-items:stretch;
     box-shadow: 5px 5px 15px 5px rgba(34, 34, 34, 0.10);
-}
 
-.content-event:hover{
-    .detail-event .deskripsi{
-    color: var(--main);
-    text-align: justify;
-    padding-top: 20px;
-    margin: 0;
-    font-size: 20px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 125%;
-    animation: marquee 10s linear infinite;
-    }
-    /* scale: 1.03; */
-    .info-event a{
-        color: var(--white1); 
-        background-color: var(--hover);
-    }
-    .info-event a:hover{
-        color: var(--white1);
-        background-color: var(--red);
-        border-color: var(--red);
-        transition: 300ms all;
+    &:hover{
+        /* scale: 1.03; */
+        .detail-event .deskripsi{
+        color: var(--main);
+        text-align: justify;
+        padding-top: 20px;
+        margin: 0;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 125%;
+        animation: marquee 10s linear infinite;
+        }
+        .info-event a{
+            color: var(--white1); 
+            background-color: var(--hover);
+        }
+        .info-event a:hover{
+            color: var(--white1);
+            background-color: var(--red);
+            border-color: var(--red);
+            transition: 300ms all;
+        }
     }
 }
 
@@ -134,13 +133,6 @@
     text-decoration: none;
     font-size: 16px;
     font-weight: 600;
-
-}
-.info-event a:hover{
-    color: var(--white1);
-    background-color: var(--hover);
-    /* border: none; */
-    transition: 300ms all;
 }
 
 /* @keyframes slideText {
