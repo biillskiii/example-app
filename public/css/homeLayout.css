@@ -56,9 +56,9 @@
     word-wrap: break-word;
 }
 
-/* ----- tentang Section ----- */
+/* ----- Tujuan Section ----- */
 .tujuan {
-    /* display: flex; */
+    display: flex;
     margin-top: 15%;
     height: auto;
     flex-direction: column;
@@ -85,35 +85,28 @@
 }
 .tujuan .judultujuan svg {
     position: absolute;
-    right: 29%;
+    right: -30%;
     top: -15%;
     z-index: -1;
 }
 .tujuan .judultujuan svg:nth-last-child(1) {
     position: absolute;
-    right: 0;
-    top: 90%;
+    right: -140%;
+    top: 100%;
     z-index: 1;
 }
 
 .kartu {
-    display: inline-flex;
+    display: grid;
+    grid-template-columns:400px 400px 400px;
     align-content: space-between;
-    gap: 40px;
-    z-index: -1;
+    gap: 31px;
     margin-top: 5%;
+    z-index: -1;
 }
 .kartu img {
     flex-shrink: 0;
-    z-index: -1;
     margin: 0;
-}
-.cardlist {
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-    z-index: -1;
-    align-content: space-between;
 }
 .kartu p {
     margin-top: 10px;
