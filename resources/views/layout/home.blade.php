@@ -11,17 +11,17 @@
     <div class="containerTentang" >
 
         {{-- NANTI DIGANTI TAMPILAN VIDEO --}}
-        <div class="gambarTentangKami" data-aos="fade-right">
+        <div class="gambarTentangKami" data-aos="fade-up">
             <img src={{asset('picture/Tentang.png')}} class="d-block" alt="">
         </div>
 
         <div class="desc">
-            <div class="posLogoQM" data-aos="fade-left">
-                <div class="subLogoQM"></div>
+            <div class="posLogoQM" data-aos="fade-down" >
+                <div class="subLogoQM" ></div>
                 <div class="subLogoTentang">?</div>
             </div>
-            <p class="judulTentang" data-aos="fade-left" >TENTANG</p>
-            <p class="deskripsiTentang" data-aos="fade-left" >ScreenShot adalah badan semi otonom dibawah naungan Hima Ilmu Komputer Fakultas Matematika & Ilmu Pengetahuan Alam Universitas Negeri Semarang, yang berfokus pada bidang Multimedia & Jurnalistik.</p>
+            <p class="judulTentang" data-aos="fade-down">TENTANG</p>
+            <p class="deskripsiTentang" data-aos="fade-up" >ScreenShot adalah badan semi otonom dibawah naungan Hima Ilmu Komputer Fakultas Matematika & Ilmu Pengetahuan Alam Universitas Negeri Semarang, yang berfokus pada bidang Multimedia & Jurnalistik.</p>
         </div>
     </div>
 

@@ -30,7 +30,7 @@
                     <p class="judul-karya">World of Virtual Reality</p>
                     <p class="bidang-karya">Digital Art Desain & Animasi</p>
                 </div>
-                <a href="#karya" class="link"> <i class="bi bi-arrow-right"></i> </a>
+                <a href="https://instagram.com/screenshotilkom" target="_blank"  class="link"> <i class="bi bi-instagram"></i> </a>
             </div>
         </div>
 
@@ -41,7 +41,7 @@
                     <p class="judul-karya">Stand Alone</p>
                     <p class="bidang-karya">Landscape Photoghraphy</p>
                 </div>
-                <a href="#karya" class="link"> <i class="bi bi-arrow-right"></i> </a>
+                <a href="https://instagram.com/screenshotilkom" target="_blank" class="link"> <i class="bi bi-instagram"></i> </a>
             </div>
         </div>
 
@@ -52,7 +52,7 @@
                     <p class="judul-karya">Judul Karya</p>
                     <p class="bidang-karya">Jenis Bidang Karya</p>
                 </div>
-                <a href="#karya" class="link"> <i class="bi bi-arrow-right"></i> </a>
+                <a href="https://instagram.com/screenshotilkom" target="_blank"  class="link"> <i class="bi bi-instagram"></i> </a>
             </div>
         </div>
         {{-- AND MOREE --}}

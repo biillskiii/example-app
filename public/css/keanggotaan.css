@@ -53,7 +53,7 @@
 }
 .img-container img {
   position: absolute;
-  background: url(<path-to-image>), #F25E4A 50% / cover no-repeat;
+  background: url(<path-to-image>), #fcf4f3 50% / cover no-repeat;
 }
 .img-container .img-caption {
   width: 100%;
