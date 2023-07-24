@@ -86,3 +86,15 @@
 .img-container:hover .img-caption{
   opacity: 1;
 }
+/***************/
+@media(max-width: 1170px){
+  .foto{
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+  }
+}
+@media(max-width: 768px){
+  .foto{
+      grid-template-columns: 1fr;
+  }
+}
