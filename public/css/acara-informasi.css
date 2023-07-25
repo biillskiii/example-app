@@ -2,6 +2,7 @@
 .info-acara {
     margin-bottom: 5%;
     margin-top: 20px;
+    white-space: nowrap;
 }
 .info-acara .judul {
     align-items: center;
