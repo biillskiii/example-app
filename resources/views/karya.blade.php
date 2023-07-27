@@ -30,7 +30,7 @@
                     <p class="judul-karya">World of Virtual Reality</p>
                     <p class="bidang-karya">Digital Art Desain & Animasi</p>
                 </div>
-                <a href="https://instagram.com/screenshotilkom" target="_blank"  class="link"> <i class="bi bi-instagram"></i> </a>
+                <a href="https://instagram.com/screenshotilkom" target="_blank"  class="link"> <i class="bi bi-link-45deg"></i> </a>
             </div>
         </div>
 
