@@ -9,12 +9,13 @@
 <!-- card member -->
         <div class="card-member">
             <ul>
-                <li data-category="pengurus harian"><a href="">Pengurus Harian</a></li>
-                <li data-category="jurnalistik"><a href="">Jurnalistik</a></li>
-                <li data-category="sinema"><a href="">Sinematografi</a></li>
-                <li data-category="fotografi"><a href="">Fotografi</a></li>
-                <li data-category="dna"><a href="">Desain & Animasi</a></li>
-                <li data-category="alumni"><a href="">Alumni</a></li>
+                <li class="my-button" data-category="all"><a href="">All</a></li>
+                <li class="my-button" data-category="pengurus harian"><a href="">Pengurus Harian</a></li>
+                <li class="my-button" data-category="jurnalistik"><a href="">Jurnalistik</a></li>
+                <li class="my-button" data-category="sinema"><a href="">Sinematografi</a></li>
+                <li class="my-button" data-category="fotografi"><a href="">Fotografi</a></li>
+                <li class="my-button" data-category="dna"><a href="">Desain & Animasi</a></li>
+                <li class="my-button" data-category="alumni"><a href="">Alumni</a></li>
             </ul>
             <div class="foto">
                 <div class="img-container" data-category="pengurus harian">

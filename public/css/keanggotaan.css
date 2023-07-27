@@ -17,7 +17,7 @@
 }
 .card-member ul {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
+  grid-template-columns: repeat(7, 1fr);
   list-style: none;
 }
 .card-member ul li a {
@@ -26,6 +26,7 @@
   text-decoration:none;
   text-align:center;
   transition: .4s;
+  font-size: 20px;
 }
 .card-member ul li a:hover {
   background: var(--main, #222);
