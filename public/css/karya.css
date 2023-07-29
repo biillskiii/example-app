@@ -60,7 +60,7 @@
     height: 75%;
     padding: 0; /*jangan dihapus*/
     margin: 0; /*jangan dihapus*/
-    object-fit: cover;
+    object-fit:cover;
 }
 .content-karya .info-karya{
     display: flex;
@@ -97,7 +97,7 @@
 .info-karya a{
     width: 30%;
     text-align: end;
-    font-size: 60px;
+    font-size: 55px;
     color: var(--main);
     &:hover{
         color: var(--hover);

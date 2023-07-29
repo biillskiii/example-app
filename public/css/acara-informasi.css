@@ -72,7 +72,7 @@
     height: 60%;
     padding: 0; /*jangan dihapus*/
     margin: 0; /*jangan dihapus*/
-    object-fit: cover;
+    object-fit:cover;
 }
 .info-event{
     display: flex;

@@ -24,38 +24,16 @@
     <div class="list-karya">
 
         <div class="content-karya" data-aos="zoom-in">
-            <img class="preview-container"src={{asset('/picture/exampleArt.webp')}} class="preview-karya" alt="" />
-            <div class="info-karya">
-                <div class="deskripsi">
-                    <p class="judul-karya">World of Virtual Reality</p>
-                    <p class="bidang-karya">Digital Art Desain & Animasi</p>
-                </div>
-                <a href="https://instagram.com/screenshotilkom" target="_blank"  class="link"> <i class="bi bi-link-45deg"></i> </a>
-            </div>
-        </div>
-
-        <div class="content-karya" data-aos="zoom-in">
-            <img class="preview-container"src={{asset('/picture/gubug.jpg')}} class="preview-karya" alt="" />
-            <div class="info-karya">
-                <div class="deskripsi">
-                    <p class="judul-karya">Stand Alone</p>
-                    <p class="bidang-karya">Landscape Photoghraphy</p>
-                </div>
-                <a href="https://instagram.com/screenshotilkom" target="_blank" class="link"> <i class="bi bi-instagram"></i> </a>
-            </div>
-        </div>
-
-        <div class="content-karya" data-aos="zoom-in">
-            <img class="preview-container"src={{asset('/picture/karyaTemplate.webp')}} class="preview-karya" alt="" />
+            <img class="preview-container"src={{asset('/picture/portofolio/photo-gallery.png')}} class="preview-karya" alt="" />
             <div class="info-karya">
                 <div class="deskripsi">
                     <p class="judul-karya">Judul Karya</p>
                     <p class="bidang-karya">Jenis Bidang Karya</p>
                 </div>
-                <a href="https://instagram.com/screenshotilkom" target="_blank"  class="link"> <i class="bi bi-instagram"></i> </a>
+                <a href="https://instagram.com/screenshotilkom" target="_blank"  class="link"> <i class="bi bi-link-45deg"></i> </a>
             </div>
         </div>
-        {{-- AND MOREE --}}
+        {{-- ADD MOREE --}}
 
         
     </div>

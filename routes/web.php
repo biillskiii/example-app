@@ -27,5 +27,5 @@ Route::get('/portofolio', function () {
     return view('karya');
 });
 Route::get('/info-acara', function () {
-    return view('layout/event');
+    return view('layout/acara-informasi');
 });
