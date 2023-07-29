@@ -12,7 +12,7 @@
         }
 
         // Add click event listeners to list items
-        const listItems = document.querySelectorAll(".card-member ul li");
+        const listItems = document.querySelectorAll(".list-divisi ul li");
         listItems.forEach(function (item) {
             item.addEventListener("click", function (event) {
                 event.preventDefault();

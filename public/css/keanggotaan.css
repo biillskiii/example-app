@@ -1,26 +1,30 @@
 /* card-member */
 .card-member {
-  height: 72px;
-  background: var(--white-2, #E9E9E9);
-  line-height:72px;
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 24px;
-  top:80px;
+  /* height: max-content; */
+  min-height: fit-content;
   width:100%;
-  margin:auto;
   margin-top: 200px;
-  margin-bottom: 900px;
+  /* margin-bottom: 5%; */
 }
-.card-member ul, .card-member li{
+
+.list-divisi{
+  height: 72px;
+  background: var(--white1);
+  line-height: 72px;
+  font-size: 24px;
+
+}
+.list-divisi ul, 
+.list-divisi li{
     margin: 0;
     padding: 0;
 }
-.card-member ul {
+.list-divisi ul {
   display: grid;
   grid-template-columns: repeat(7, 1fr);
   list-style: none;
 }
-.card-member ul li a {
+.list-divisi ul li a {
   display: block;
   color:#222222;
   text-decoration:none;
@@ -28,7 +32,7 @@
   transition: .4s;
   font-size: 20px;
 }
-.card-member ul li a:hover {
+.list-divisi ul li a:hover {
   background: var(--main, #222);
   color: #F8F8F8;
 }
@@ -36,50 +40,47 @@
 /* foto */
 .foto {
   /* border: 2px solid rgb(0, 0, 0); */
-  width: 100%;
-  margin: auto;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr 1fr;
-  column-gap: 14px;
-  margin-top: 30px;
+  gap: 20px;
+  margin-top: 45px;
+  position: relative;
 }
 
 /* overlay foto */
 .img-container {
-  width: 300px;
   height: 350px;
-  margin-top: 14px;
+  /* margin-top: 14px; */
   position: relative;
   overflow: hidden;
+  object-fit: scale-down;
 }
 .img-container img {
   position: absolute;
   background: url(<path-to-image>), #fcf4f3 50% / cover no-repeat;
+  width: 100%;
+  height: auto;
 }
 .img-container .img-caption {
-  width: 100%;
   height: 80px;
   top: 275px;
   position: relative;
   background: rgba(34, 34, 34, 0.75);
   text-align: center;
+  padding: 15px;
   opacity: 0;
-  transition: .4s;
+  transition: 0.4s;
 }
 .img-caption h4 {
-  padding-top: 10px;
   color: var(--white-1, #F8F8F8);
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 500;
   line-height: normal;
 }
 .img-caption p {
-  margin-top: 10px;
   color: var(--white-1, #F8F8F8);
-  font-family: 'Josefin Sans', sans-serif;
-  font-size: 24px;
+  font-size: 22px;
   font-style: normal;
   font-weight: 300;
   line-height: normal;
