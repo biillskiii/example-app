@@ -88,7 +88,8 @@
 .img-container:hover .img-caption{
   opacity: 1;
 }
-/***************/
+
+/* responsive */
 @media(max-width: 1170px){
   .foto{
       grid-template-columns: repeat(2, 1fr);
