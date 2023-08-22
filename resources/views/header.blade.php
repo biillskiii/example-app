@@ -14,14 +14,14 @@
         </div>
         <div class="textMiring">
             <div class="miring-kanan">
-                <div class="marquee" direction="right" class="miring-kanan"> 
+                <div class="marquee" direction="right" class="miring-kanan">
                     <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
                     <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
                     <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
                 </div>
             </div>
             <div class="miring-kiri">
-                <div class="marquee" class="miring-kiri"> 
+                <div class="marquee" class="miring-kiri">
                     <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
                     <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
                     <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
@@ -29,6 +29,7 @@
             </div>
         </div>
     </div>
+
 
 </div>
 

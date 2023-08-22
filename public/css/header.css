@@ -2,6 +2,10 @@
     /* background-color: gray; */
     margin-bottom: 10%;
     height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .organisasi {
@@ -57,13 +61,9 @@
 .header .main-foto img {
     width: 100%;
 }
-
-.header .textMiring {
-    position: absolute;
+.header .textMiring{
+    justify-content: center;
     width: 100%;
-    transform: translateY(-40px);
-    left: 0;
-
 }
 .textMiring .marquee {
     white-space: nowrap;
@@ -73,6 +73,7 @@
     box-shadow: 0 -2px 2px rgb(37, 37, 37), 0 2px 2px rgb(37, 37, 37);
 
 }
+
 
 .miring-kiri .marquee span{
     font-size: 32px;
@@ -108,4 +109,31 @@
 .textMiring .miring-kanan {
     position: relative;
     transform: rotate(3.5deg);
+}
+
+
+/* Break point
+    1. 420 px
+    2. 640 px
+    3. 768 px
+    4. 1024 px
+*/
+
+@media screen and (max-width:1024px) {
+    .organisasi {
+        font-size: 80px;
+        font-weight: 600;
+    }
+}
+
+@media screen and (max-width:768px) {
+
+}
+
+@media screen and (max-width:640px) {
+
+}
+
+@media screen and (max-width:420px) {
+
 }

@@ -28,11 +28,13 @@
                 <a href="/">ScreenShot</a>
             </div>
             <ul class="navmenu">
-                <li class="navitem"><a href="/keanggotaan">Keanggotaan</a></li>
-                <li class="navitem"><a href="/portofolio">Portofolio</a></li>
-                <li class="navitem"><a href="/info-acara">Info Acara</a></li>
+                <div class="list">
+                    <li class="navitem"><a href="/keanggotaan">Keanggotaan</a></li>
+                    <li class="navitem"><a href="/portofolio">Portofolio</a></li>
+                    <li class="navitem"><a href="/info-acara">Info Acara</a></li>
+                </div>
+                <a class="btn btn-light" type="submit">Bergabung</a>
             </ul>
-            <a class="btn btn-light" type="submit">Bergabung</a>
 
             <!-- {{-- menut toggle --}} -->
             <div class="menu-toggle">
@@ -54,7 +56,7 @@
             <p class="organisasi" data-aos="fade-up">SCREENSHOT</p>
             <div class="textMiring" data-aos="zoom-in">
                 <div class="miring-kiri">
-                    <div class="marquee" scrollamount="10" class="miring-kiri"> 
+                    <div class="marquee" scrollamount="10" class="miring-kiri">
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
@@ -64,9 +66,9 @@
         </div>
 
         <footer>
-            <p class="copyright">
-                © Screenshot 2023 All Rights Reserved
-            </p>
+            <div class="copyright">
+                <p>&copy; Screenshot 2023 All Rights Reserved</p>
+            </div>
             <ul>
                 <li><a href="mailto:ilkom.screenshot@gmail.com"><i class="bi bi-envelope-fill"></i><span>Mail</span></a></li>
                 <li><a target="_blank" href="https://www.instagram.com/screenshotilkom/"><i class="bi bi-instagram"></i><span>Instagram</span></a></li>
