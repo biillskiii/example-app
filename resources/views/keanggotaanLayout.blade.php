@@ -31,7 +31,7 @@
         <div class="img-container" data-category="pengurus harian">
             <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
             <div class="img-caption">
-                <h4>Kevyn Alifian Hernanda W</h4>
+                <h4>Kevyn Alifian H W</h4>
                 <p>Wakil Ketua</p>
             </div>
         </div>
@@ -156,14 +156,14 @@
         <div class="img-container" data-category="fotografi">
             <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
             <div class="img-caption">
-                <h4>Muhammad Nabiel Dwi A</h4>
+                <h4>Muhammad Nabiel D A</h4>
                 <p>Ketua Divisi</p>
             </div>
         </div>
         <div class="img-container" data-category="fotografi">
             <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
             <div class="img-caption">
-                <h4>Muhammad Dzaki Arrozaq</h4>
+                <h4>Muhammad Dzaki A</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>

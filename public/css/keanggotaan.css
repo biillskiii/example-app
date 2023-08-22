@@ -91,10 +91,24 @@
 
 /* responsive */
 @media(max-width: 1024px){
-  .foto{
-      grid-template-columns: repeat(2, 1fr);
-      align-items: center;
+  .list-divisi ul li a {
+    font-size: 15px;
   }
+  .foto{
+      grid-template-columns: repeat(4, 1fr);
+      align-items: center;
+      gap: 15px;
+  }
+  .img-container {
+    height: 300px;
+  }
+  .img-container .img-caption {
+    top: 240px;
+  }
+  .img-caption h4, .img-caption p {
+    font-size: 17px;
+  }
+
 }
 @media(max-width: 768px){
   .foto{
