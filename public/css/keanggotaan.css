@@ -90,7 +90,7 @@
 }
 
 /* responsive */
-@media(max-width: 1170px){
+@media(max-width: 1024px){
   .foto{
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
@@ -98,6 +98,19 @@
 }
 @media(max-width: 768px){
   .foto{
-      grid-template-columns: 1fr;
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+  }
+}
+@media(max-width: 640px){
+  .foto{
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
+  }
+}
+@media(max-width: 420px){
+  .foto{
+      grid-template-columns: repeat(2, 1fr);
+      align-items: center;
   }
 }
