@@ -38,7 +38,7 @@
         <div class="img-container" data-category="pengurus harian">
             <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
             <div class="img-caption">
-                <h4>Nadhifah Nur Annisa R</h4>
+                <h4>Nadhifah Nur A R</h4>
                 <p>Sekretaris I</p>
             </div>
         </div>
