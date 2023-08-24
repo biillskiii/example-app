@@ -191,7 +191,7 @@
         <div class="img-container" data-category="fotografi">
             <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
             <div class="img-caption">
-                <h4>Dina Wachidah Septiana</h4>
+                <h4>Dina Wachidah S</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>

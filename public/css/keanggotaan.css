@@ -128,6 +128,12 @@
       grid-template-columns: repeat(2, 1fr);
       align-items: center;
   }
+  .img-container {
+    height: 380px;
+  }
+  .img-container .img-caption {
+    top: 310px;
+  }
 }
 @media(max-width: 420px){
   /* .list-divisi {
@@ -141,13 +147,12 @@
       gap: 5px;
   }
   .img-container {
-    height: 290px;
+    height: 250px;
   }
   .img-container .img-caption {
-    top: 260px;
+    top: 180px;
   }
   .img-caption h4, .img-caption p {
     font-size: 14px;
-    color: aqua;
   }
 }
