@@ -193,11 +193,11 @@
     padding-left: 10px;
   }
   .list-divisi .menu {
-    z-index: 999;
     display: none;
   }
-  .list-divisi .select:hover .list-divisi .menu {
+  .list-divisi .select ul li:active .list-divisi .menu {
     display: block;
+    z-index: 999;
   }
   
   .foto{
