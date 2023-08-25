@@ -6,17 +6,24 @@
     <link rel="stylesheet" type="text/css" href="{{asset('css/keanggotaan.css') }}">
 @endpush
 
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 <!-- card member -->
 <div class="card-member">
     <div class="list-divisi">
-        <ul>
-            <li class="my-button" data-category="all"><a href="">All</a></li>
-            <li class="my-button" data-category="pengurus harian"><a href="">Pengurus Harian</a></li>
-            <li class="my-button" data-category="jurnalistik"><a href="">Jurnalistik</a></li>
-            <li class="my-button" data-category="sinema"><a href="">Sinematografi</a></li>
-            <li class="my-button" data-category="fotografi"><a href="">Fotografi</a></li>
-            <li class="my-button" data-category="dna"><a href="">Desain & Animasi</a></li>
-            <li class="my-button" data-category="alumni"><a href="">Alumni</a></li>
+        <div class="select">
+            <ul>
+                <li class="my-button active" data-category="all"><a href="">All <i class="fas fa-caret-down"></i></a></li>
+            </ul>
+        </div>
+        <ul class="menu">
+            <li class="my-button active" data-category="all"><a href="">All <i class="fas fa-caret-down"></i></a></li>
+            <li class="my-button" data-category="pengurus harian"><a href="">Pengurus Harian <i class="fas fa-caret-down"></i></a></li>
+            <li class="my-button" data-category="jurnalistik"><a href="">Jurnalistik <i class="fas fa-caret-down"></i></a></li>
+            <li class="my-button" data-category="sinema"><a href="">Sinematografi <i class="fas fa-caret-down"></i></a></li>
+            <li class="my-button" data-category="fotografi"><a href="">Fotografi <i class="fas fa-caret-down"></i></a></li>
+            <li class="my-button" datas-category="dna"><a href="">Desain & Animasi <i class="fas fa-caret-down"></i></a></li>
+            <li class="my-button" data-category="alumni"><a href="">Alumni <i class="fas fa-caret-down"></i></a></li>
         </ul> 
     </div>
     <div class="foto">
