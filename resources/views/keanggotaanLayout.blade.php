@@ -17,7 +17,7 @@
             </ul>
         </div>
         <ul class="menu">
-            <li class="my-button active" data-category="all"><a href="">All <i class="fas fa-caret-down"></i></a></li>
+            <li class="my-button hidden" data-category="all"><a href="">All <i class="fas fa-caret-down"></i></a></li>
             <li class="my-button" data-category="pengurus harian"><a href="">Pengurus Harian <i class="fas fa-caret-down"></i></a></li>
             <li class="my-button" data-category="jurnalistik"><a href="">Jurnalistik <i class="fas fa-caret-down"></i></a></li>
             <li class="my-button" data-category="sinema"><a href="">Sinematografi <i class="fas fa-caret-down"></i></a></li>
