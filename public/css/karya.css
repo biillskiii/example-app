@@ -104,39 +104,12 @@
     }
 }
 
-/* responsive */
-@media(max-width: 1024px){
 
-}
-@media(max-width: 768px){
-
-}
-@media(max-width: 640px){
-
-}
-@media(max-width: 420px){
-    .Title h1{
-        font-size: 23px;
+/* @keyframes slideText {
+    0%{
+        transform: translate(0,0);
     }
-    .marquee span{
-        font-size: 12px;
+    100%{
+        transform: translate(-100%,0);
     }
-    .list-karya{
-        grid-template-columns: repeat(1, 1fr);
-    }
-    .content-karya{
-        width: 367.59px;
-        height: 275.692px;
-        flex-shrink: 0;
-    }
-    .content-karya .judul-karya{
-        font-size: 16px;
-    }
-    .content-karya .bidang-karya{
-        font-size: 10px;
-    }
-    .bi{
-        width: 10px;
-        height: 10px;
-    }
-}
+} */
