@@ -20,31 +20,4 @@ document.addEventListener("DOMContentLoaded", function () {
             showPhotos(selectedCategory);
         });
     });
-    // // Mendapatkan elemen ikon panah
-    // const arrowIcon = document.querySelector(".fas");
-
-    // // Mendapatkan elemen dropdown menu
-    // const dropdownMenu = document.querySelector(".list-divisi .menu");
-
-    // // Variabel untuk melacak status dropdown
-    // let isDropdownVisible = false;
-
-    // // Fungsi untuk mengubah status dropdown dan mengatur tampilan CSS
-    // function toggleDropdown() {
-    //     if (isDropdownVisible) {
-    //         dropdownMenu.style.display = "none";
-    //     } else {
-    //         dropdownMenu.style.display = "block";
-    //     }
-    //     isDropdownVisible = !isDropdownVisible;
-    // }
-
-    // // Menambahkan event listener ke ikon panah
-    // arrowIcon.addEventListener("click", toggleDropdown);
-
-    // // Inisialisasi status dropdown saat halaman dimuat
-    // window.addEventListener("load", function () {
-    //     dropdownMenu.style.display = "none";
-    // });
-
 });
