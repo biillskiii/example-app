@@ -1,3 +1,6 @@
+.my-button{
+  border: 5px;
+}
 /* card-member */
 .card-member {
   /* height: max-content; */
@@ -164,12 +167,12 @@
   }
 }
 @media(max-width: 420px){
-  .select {
+  /* .select {
     display: block;
     height: 40px;
     background: var(--white1);
     line-height: 40px;
-    /* box-sizing: border-box; */
+    box-sizing: border-box;
     overflow: hidden;
   }
   .select div {
@@ -180,8 +183,9 @@
   .select .selected span {
     display: block;
     float: right;
-  }
-
+  } */
+  
+/* 
 
   .list-divisi{
     height: 40px;
@@ -197,9 +201,6 @@
   .list-divisi ul li a i {
     display: inline-block;
   }
-  .list-divisi .menu .hidden{
-    display: none;
-  }
   .fas {
     float: right;
     margin-right: 20px;
@@ -211,13 +212,14 @@
   }
   .list-divisi .menu {
     /* display: none; */
-    position: relative;
+    /* position: relative;
     z-index: 9999;
+    background-color: #F8F8F8;
   }
-  /* .list-divisi .select ul li:active .menu {
+  .list-divisi .select ul li:active .menu {
     display: block;
     z-index: 999;
-  } */
+  }
   
   .foto{
       grid-template-columns: repeat(2, 1fr);
@@ -232,5 +234,5 @@
   }
   .img-caption h4, .img-caption p {
     font-size: 14px;
-  }
-}
+  } */
+} 
