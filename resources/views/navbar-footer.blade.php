@@ -52,10 +52,12 @@
 
 <!-- ===== Footer Section ===== -->
         <div class="textbawah">
-            <p class="thanks" data-aos="fade-down">Thanks For Scrolling</p>
-            <p class="organisasi" data-aos="fade-up">SCREENSHOT</p>
+            <div class="judul-thanks">
+                <p class="thanks" data-aos="fade-down">Thanks For Scrolling</p>
+                <p class="organisasi" data-aos="fade-up">SCREENSHOT</p>
+            </div>
             <div class="textMiring" data-aos="zoom-in">
-                <div class="miring-kiri">
+                <div class="miring-kiri running">
                     <div class="marquee" scrollamount="10" class="miring-kiri">
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
@@ -77,15 +79,7 @@
         </footer>
     </div>
 
-    <script>
-        const menu = document.querySelector('.menu-toggle');
-        const navmenu = document.querySelector('.navmenu');
-
-        menu.addEventListener('click', () => {
-            menu.classList.toggle('active');
-            navmenu.classList.toggle('active');
-        });
-    </script>
+    <script src="{{ asset('js/landing.js') }}"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="{{asset('js/aos.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
