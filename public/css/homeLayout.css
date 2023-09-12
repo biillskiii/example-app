@@ -1,39 +1,44 @@
+.home{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 1rem 0 1rem;
+}
+
 /* ----- tentang Section ----- */
 .containerTentang {
     display: flex;
-    height: auto;
-    position: relative;
-    margin-top: 20%;
-    align-items: center;
+    justify-content: space-between;
+    margin: 10% 0 0 0;
 }
 
-.posLogoQM {
-    width: 127px;
-    height: 127px;
-    right: 3%;
-    top: 15%;
-    position: absolute;
+.tentang{
+    display: flex;
+    margin-top: -2rem;
+    gap: 1.5rem;
+}
+.posLogoQM{
+    z-index: -1;
+    display: flex;
+    font-size: 56pt;
+    margin-top: -1.5rem;
 }
 
 .subLogoQM {
     width: 89.5px;
     height: 89.5px;
-    /* left: -20px; */
-    top: -50px;
-    position: absolute;
     transform: rotate(45deg);
     transform-origin: 0 0;
     background: #f2af4a;
     z-index: -1;
 }
-
-.subLogoTentang {
-    left: -20px;
-    top: -35px;
-    position: relative;
-    font-size: 56pt;
+.subLogoQM h1{
+    transform: rotate(-45deg);
+    font-size: 6rem;
+    margin-left: 2.2rem;
     font-weight: 600;
 }
+
 .judulTentang {
     color: #222222;
     font-size: 80px;
@@ -44,6 +49,7 @@
 
 .containerTentang .desc {
     margin-left: 5%;
+    width: 50%;
 }
 
 .deskripsiTentang {
@@ -56,49 +62,36 @@
     word-wrap: break-word;
 }
 
+
+
 /* ----- Tujuan Section ----- */
-.tujuan {
+.judul{
     display: flex;
-    margin-top: 15%;
-    height: auto;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+    margin-top: 5rem;
+    margin-bottom: -1rem;
+    gap: 1rem;
 }
-/* .tujuan .kartu svg{
-    width: 143.686px;
-    height: 143.686px;
-    flex-shrink: 0;
-} */
-.tujuan .judultujuan {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* margin-left: 120px; */
+.judul p{
     color: #222222;
     font-size: 80px;
     font-family: Noto Sans KR;
     font-weight: 700;
     text-decoration: underline;
-    position: relative;
-    /* left: 110px; */
 }
-.tujuan .judultujuan svg {
-    position: absolute;
-    right: -30%;
-    top: -15%;
-    z-index: -1;
+.judul svg{
+    margin-left: -3.2rem;
+    margin-top: -1.1rem;
+    height: 128px;
+    width: 128px;
 }
-.tujuan .judultujuan svg:nth-last-child(1) {
-    position: absolute;
-    right: -140%;
-    top: 120%;
-    z-index: 1;
+
+.tujuan{
+    display: flex;
+    gap: 1rem;
 }
 
 .kartu {
-    display: grid;
-    grid-template-columns:400px 400px 400px;
+    display: flex;
     align-content: space-between;
     gap: 31px;
     margin-top: 5%;
@@ -107,11 +100,18 @@
 .kartu img {
     flex-shrink: 0;
     margin: 0;
+    border-radius: 10px;
 }
 .kartu p {
     margin-top: 10px;
     text-align: justify;
     font-size: 18px;
+}
+
+.cardlist{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
 }
 .cardlist .judul {
     margin-top: 32px;
@@ -127,8 +127,7 @@
 .divisi {
     display: flex;
     flex-direction: column;
-    margin-top: 8%;
-    margin-bottom: 5%;
+    margin: 8% 0% 5% -30%;
 }
 .juduldivisi {
     color: #222;
@@ -137,6 +136,7 @@
     font-style: normal;
     font-weight: 700;
     line-height: normal;
+    text-decoration: underline;
 }
 .juduldivisi svg {
     width: 71.871px;
@@ -147,12 +147,6 @@
     left: -47px;
     z-index: -1;
 }
-.divisi hr {
-    color: #222;
-    width: 1275px;
-    font-weight: 1000;
-    flex-shrink: 0;
-}
 
 .divisisection ul {
     position: relative;
@@ -160,29 +154,32 @@
 }
 .divisisection ul li {
     display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.divisisection ul li .divis{
+    display: flex;
     justify-content: flex-start;
-    width: 54%;
+    width: 70%;
     text-decoration: none;
     list-style: none;
-    margin-bottom: 20px;
 }
 
 .divisisection .judul {
-    position: relative;
-    width: 80%;
-    top: 25px;
+    width: 100%;
     padding: 0 7%;
     color: #222;
     font-size: 32px;
     font-style: normal;
     font-weight: 500;
     line-height: 116%;
-    /* 37.12px */
+    margin-top: 1.5rem;
+
 }
 
 .listdivisi hr {
     color: #222;
-    width: 55%;
+    width: 70%;
     height: 20px;
     flex-shrink: 0;
     margin: 10px 0;
@@ -197,7 +194,7 @@
     background-color: white;
     outline: white;
     border: transparent;
-} 
+}
 .divisisection ul li button:focus {
     opacity: 100%;
     background-color: white;
@@ -210,11 +207,15 @@
 #foto-card,
 #dna-card {
     position: absolute;
-    left: 62.3%;
+    left: 80%;
     top: 0%;
+}
+.divisisection .listdivisi .hp svg{
+    display: none;
 }
 .kartu-judul {
     color: #222;
+    text-align: left;
     font-family: "Noto Sans KR";
     font-size: 32px;
     font-style: normal;
@@ -236,4 +237,178 @@
     width: 30rem;
     display: flex;
     flex-direction: column;
+}
+
+
+/* RESPONSIVE BREAKPOINT */
+
+@media screen and (max-width:1024px) {
+    .containerTentang{
+        flex-direction: column;
+        gap:5rem;
+    }
+    .desc{
+        margin-left: -5rem;
+    }
+    .tentang{
+        align-items: center;
+        justify-content: center;
+    }
+    .deskripsiTentang{
+        text-align: center;
+    }
+    .posLogoQM{
+        margin-top: -5rem;
+    }
+
+    .kartu{
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width:768px) {
+    /* tentang */
+    .containerTentang{
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .d-block{
+        width: 100%;
+    }
+    .divisi hr{
+        width: 50%;
+    }
+
+    .posLogoQM{
+        font-size: 36pt;
+    }
+    .subLogoQM{
+        width: 47.972px;
+        height: 47.972px;
+        flex-shrink: 0;
+    }
+    .subLogoQM h1{
+        font-size: 3rem;
+
+    }
+    .judulTentang{
+        font-size: 32px;
+        margin-left: 0.7rem;
+    }
+    .deskripsiTentang{
+        text-align: center;
+        font-size:14px;
+        line-height: 140%;
+        margin-left: 0.4rem;
+    }
+    .containerTentang .desc{
+        width: 100%;
+        margin:0;
+    }
+    .subLogoQM h1{
+        margin-left: 0.75rem;
+    }
+    .posLogoQM{
+        margin-top: -3rem;
+        margin-left: -0.5rem;
+    }
+
+
+    /* tujuan section */
+    .judul{
+        margin-top:2rem;
+    }
+    .judul p{
+        font-size: 38px;
+    }
+    .judul svg{
+        margin-left: -2rem;
+        margin-top: -0.4rem;
+        width: 47.972px;
+        height: 47.972px;
+        flex-shrink: 0;
+
+    }
+    .kartu img{
+        width: 100%;
+    }
+    .cardlist .judul{
+        font-size: 28px;
+        line-height: 100%;
+        margin-top: 0.2rme;
+        margin-bottom: 0.2rem;
+    }
+
+    .cardlist p{
+        font-size: 16px;
+    }
+
+
+
+    /* Divisi section */
+    .divisi{
+        justify-content: center;
+        margin: 0;
+    }
+
+    .juduldivisi {
+        font-size: 30px;
+
+    }
+    .juduldivisi svg{
+        width: 32px;
+        height: 32px;
+        top: -3.5rem;
+        left: 18rem;
+    }
+    .divisisection .judul{
+        position: none;
+        font-size: 16px;
+        top: 0%;
+        left: 0%;
+    }
+    .listdivisi hr{
+        width: 100%;
+    }
+    .divisisection .listdivisi .window svg{
+        display: none;
+    }
+    .divisisection .listdivisi .hp svg{
+        margin-bottom: -1rem;
+        display: block;
+    }
+    .divisisection .listdivisi ul li .divis {
+        width: 100%;
+    }
+    .listdivisi #ph-card,
+    #jurnal-card,
+    #foto-card,
+    #sinema-card,
+    #dna-card{
+        position: relative;
+        left: 0%;
+        top: 0%;
+        margin-top: 2rem;
+    }
+
+    .kartu-judul {
+        font-size: 26px;
+    }
+    .kartu-text {
+        font-size: 16px;/* 17.5px */
+    }
+    .listdivisi .kartu {
+        width: 20rem;
+
+    }
+
+}
+
+@media screen and (max-width:640px) {
+
+}
+
+@media screen and (max-width:420px) {
+
 }

@@ -13,6 +13,8 @@ function toggleOpacity() {
   button3.style.opacity = isClicked ? 1 : 0.3;
   button4.style.opacity = isClicked ? 1 : 0.3;
   button5.style.opacity = isClicked ? 1 : 0.3;
+
+
 }
 
 // Tambahkan event listener ke tombol untuk memanggil fungsi saat diklik

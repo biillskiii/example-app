@@ -28,11 +28,13 @@
                 <a href="/">ScreenShot</a>
             </div>
             <ul class="navmenu">
-                <li class="navitem"><a href="/keanggotaan">Keanggotaan</a></li>
-                <li class="navitem"><a href="/portofolio">Portofolio</a></li>
-                <li class="navitem"><a href="/info-acara">Info Acara</a></li>
+                <div class="list">
+                    <li class="navitem"><a href="/keanggotaan">Keanggotaan</a></li>
+                    <li class="navitem"><a href="/portofolio">Portofolio</a></li>
+                    <li class="navitem"><a href="/info-acara">Info Acara</a></li>
+                </div>
+                <a class="btn btn-light" type="submit">Bergabung</a>
             </ul>
-            <a class="btn btn-light" type="submit">Bergabung</a>
 
             <!-- {{-- menut toggle --}} -->
             <div class="menu-toggle">
@@ -50,11 +52,13 @@
 
 <!-- ===== Footer Section ===== -->
         <div class="textbawah">
-            <p class="thanks" data-aos="fade-down">Thanks For Scrolling</p>
-            <p class="organisasi" data-aos="fade-up">SCREENSHOT</p>
+            <div class="judul-thanks">
+                <p class="thanks" data-aos="fade-down">Thanks For Scrolling</p>
+                <p class="organisasi" data-aos="fade-up">SCREENSHOT</p>
+            </div>
             <div class="textMiring" data-aos="zoom-in">
-                <div class="miring-kiri">
-                    <div class="marquee" scrollamount="10" class="miring-kiri"> 
+                <div class="miring-kiri running">
+                    <div class="marquee" scrollamount="10" class="miring-kiri">
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
@@ -64,9 +68,9 @@
         </div>
 
         <footer>
-            <p class="copyright">
-                © Screenshot 2023 All Rights Reserved
-            </p>
+            <div class="copyright">
+                <p>&copy; Screenshot 2023 All Rights Reserved</p>
+            </div>
             <ul>
                 <li><a href="mailto:ilkom.screenshot@gmail.com"><i class="bi bi-envelope-fill"></i><span>Mail</span></a></li>
                 <li><a target="_blank" href="https://www.instagram.com/screenshotilkom/"><i class="bi bi-instagram"></i><span>Instagram</span></a></li>
@@ -75,15 +79,7 @@
         </footer>
     </div>
 
-    <script>
-        const menu = document.querySelector('.menu-toggle');
-        const navmenu = document.querySelector('.navmenu');
-
-        menu.addEventListener('click', () => {
-            menu.classList.toggle('active');
-            navmenu.classList.toggle('active');
-        });
-    </script>
+    <script src="{{ asset('js/landing.js') }}"></script>
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="{{asset('js/aos.js')}}"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>

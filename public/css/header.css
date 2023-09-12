@@ -2,6 +2,10 @@
     /* background-color: gray; */
     margin-bottom: 10%;
     height: max-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .organisasi {
@@ -10,7 +14,7 @@
     /* leading-trim: both;
     text-edge: cap; */
     font-family: "Noto Sans KR";
-    font-size: 157px;
+    font-size: 150px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -20,12 +24,7 @@
 }
 
 .running-text{
-    position: relative;
-    display: flex;
     width: 100%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hidden;
 }
 .running-text .marquee{
     white-space: nowrap;
@@ -57,13 +56,11 @@
 .header .main-foto img {
     width: 100%;
 }
-
-.header .textMiring {
+.header .textMiring{
     position: absolute;
+    top: 125%;
+    justify-content: center;
     width: 100%;
-    transform: translateY(-40px);
-    left: 0;
-
 }
 .textMiring .marquee {
     white-space: nowrap;
@@ -73,6 +70,7 @@
     box-shadow: 0 -2px 2px rgb(37, 37, 37), 0 2px 2px rgb(37, 37, 37);
 
 }
+
 
 .miring-kiri .marquee span{
     font-size: 32px;
@@ -108,4 +106,68 @@
 .textMiring .miring-kanan {
     position: relative;
     transform: rotate(3.5deg);
+}
+
+
+/* Break point
+    1. 420 px
+    2. 640 px
+    3. 768 px
+    4. 1024 px
+*/
+
+@media screen and (max-width:1024px) {
+    .organisasi {
+        margin-right: -2%;
+        font-size: 80px;
+    }
+    .marquee span{
+        font-size: 20px;
+    }
+    .header .textMiring{
+        top: 60%;
+    }
+    .miring-kanan .marquee span{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .miring-kiri .marquee span{
+        font-size: 20px;
+        line-height: 40px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .organisasi {
+        margin-top: 3%;
+        margin-right: -3%;
+        font-size: 33px;
+        letter-spacing: 15px;
+    }
+    .marquee span{
+        font-size: 20px;
+        line-height: 40px;
+    }
+    .header .main-foto{
+        margin-top: 10px;
+    }
+    .header .textMiring{
+        top: 45%;
+    }
+    .textMiring .miring-kiri {
+        transform: translateY(-38px) rotate(-3deg);
+    }
+    .textMiring .miring-kanan {
+        position: relative;
+        transform: rotate(4.5deg);
+    }
+
+}
+
+@media screen and (max-width:640px) {
+
+}
+
+@media screen and (max-width:420px) {
 }
