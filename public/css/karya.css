@@ -53,7 +53,6 @@
     justify-content: center;
     align-items:stretch;
     box-shadow: 5px 5px 15px 5px rgba(34, 34, 34, 0.10);
-
 }
 .content-karya .preview-container{
     width: 100%;
@@ -103,13 +102,143 @@
         color: var(--hover);
     }
 }
-
-
-/* @keyframes slideText {
-    0%{
-        transform: translate(0,0);
-    }
-    100%{
-        transform: translate(-100%,0);
-    }
+/* .bi{
+    display: inline-block;
+    width: 400px;
+    height: 800px;
 } */
+
+/* responsive */
+@media(max-width: 1024px){
+    .Title h1{
+        font-size: 78px;
+    }
+    .marquee span{
+        font-size: 20px;
+    }
+    .list-karya{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .content-karya{
+        width: 367.59px;
+        height: 275.692px;
+        flex-shrink: 0;
+    }
+    .content-karya .judul-karya{
+        font-size: 17px;
+    }
+    .content-karya .bidang-karya{
+        font-size: 10px;
+    }
+    .info-karya a{
+        width: 30%;
+        text-align: end;
+        font-size: 35px;
+        color: var(--main);
+        position: relative;
+        left: 20px;
+    }
+    .deskripsi{
+        margin-top: 10px;
+        margin-left: -22px;
+    }
+}
+@media(max-width: 768px){
+    .Title h1{
+        font-size: 53px;
+    }
+    .marquee span{
+        font-size: 18px;
+    }
+    .list-karya{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .content-karya{
+        width: 327.59px;
+        height: 235.692px;
+        flex-shrink: 0;
+    }
+    .content-karya .judul-karya{
+        font-size: 17px;
+    }
+    .content-karya .bidang-karya{
+        font-size: 10px;
+    }
+    .info-karya a{
+        width: 30%;
+        text-align: end;
+        font-size: 35px;
+        color: var(--main);
+    }
+    .deskripsi{
+        margin-top: 10px;
+        margin-left: -22px;
+    }
+}
+@media(max-width: 640px){
+    .Title h1{
+        font-size: 40px;
+    }
+    .marquee span{
+        font-size: 15px;
+    }
+    .list-karya{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .content-karya{
+        width: 267.59px;
+        height: 175.692px;
+        flex-shrink: 0;
+    }
+    .content-karya .judul-karya{
+        margin-bottom: 3px;
+        font-size: 14px;
+    }
+    .content-karya .bidang-karya{
+        font-size: 9px;
+    }
+    .info-karya a{
+        width: 30%;
+        position: relative;
+        left: 23px;
+        text-align: end;
+        font-size: 25px;
+        color: var(--main);
+    }
+    .deskripsi{
+        margin-top: 10px;
+        margin-left: -27px;
+    }
+}
+@media(max-width: 420px){
+    .Title h1{
+        font-size: 20px;
+    }
+    .marquee span{
+        font-size: 10px;
+    }
+    .list-karya{
+        grid-template-columns: repeat(1, 1fr);
+        row-gap: 5px;
+    }
+    .content-karya{
+        width: 367.59px;
+        height: 275.692px;
+        flex-shrink: 0;
+    }
+    .content-karya .judul-karya{
+        font-size: 16px;
+    }
+    .content-karya .bidang-karya{
+        font-size: 10px;
+    }
+    .info-karya a{
+        width: 30%;
+        text-align: end;
+        font-size: 35px;
+        color: var(--main);
+    }
+    .deskripsi{
+        margin-top: 5px;
+    }
+}

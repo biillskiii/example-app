@@ -33,6 +33,28 @@
                 <a href="https://instagram.com/screenshotilkom" target="_blank"  class="link"> <i class="bi bi-link-45deg"></i> </a>
             </div>
         </div>
+
+        <div class="content-karya" data-aos="zoom-in">
+            <img class="preview-container"src={{asset('/picture/portofolio/photo-gallery.png')}} class="preview-karya" alt="" />
+            <div class="info-karya">
+                <div class="deskripsi">
+                    <p class="judul-karya">Judul Karya</p>
+                    <p class="bidang-karya">Jenis Bidang Karya</p>
+                </div>
+                <a href="https://instagram.com/screenshotilkom" target="_blank"  class="link"> <i class="bi bi-link-45deg"></i> </a>
+            </div>
+        </div>
+        
+        <div class="content-karya" data-aos="zoom-in">
+            <img class="preview-container"src={{asset('/picture/portofolio/photo-gallery.png')}} class="preview-karya" alt="" />
+            <div class="info-karya">
+                <div class="deskripsi">
+                    <p class="judul-karya">Judul Karya</p>
+                    <p class="bidang-karya">Jenis Bidang Karya</p>
+                </div>
+                <a href="https://instagram.com/screenshotilkom" target="_blank"  class="link"> <i class="bi bi-link-45deg"></i> </a>
+            </div>
+        </div>
         {{-- ADD MOREE --}}
 
         
