@@ -134,7 +134,7 @@
                             <hr />
                             <div id="jurnal-card">
                                 <div class="kartu">
-                                    <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
+                                    <img src="{{asset('picture/Jurnalistik/jurnal.jpg')}}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                       <h5 style="font-weight: 700" class="kartu-judul">JURNALISTIK</h5>
                                       <p class="kartu-text">Bertanggung jawab atas produksi konten berita, penyusunan laporan,
@@ -207,7 +207,7 @@
                             <hr />
                             <div id="foto-card">
                                 <div class="kartu">
-                                    <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
+                                    <img src="{{asset('picture/Fotografi/foto.jpg')}}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                       <h5 style="font-weight: 700" class="kartu-judul">FOTOGRAFI</h5>
                                       <p class="kartu-text">Bertanggung jawab khusus dalam mengelola dan menciptakan karya-karya fotografi

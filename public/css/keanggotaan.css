@@ -74,7 +74,7 @@
 }
 .img-container img {
   position: absolute;
-  background: url(<path-to-image>), #fcf4f3 50% / cover no-repeat;
+  background: url(<path-to-image>), #EA4C4C 50% / cover no-repeat;
   width: 100%;
   height: auto;
 }

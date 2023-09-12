@@ -31,42 +31,42 @@
     <div class="foto">
         {{-- PH --}}
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH_Azis.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Nur Azis Kurnia Rianto</h4>
                 <p>Ketua</p>
             </div>
         </div>
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH_Kevyn.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Kevyn Alifian H W</h4>
                 <p>Wakil Ketua</p>
             </div>
         </div>
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH_Nadhifah.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Nadhifah Nur A R</h4>
                 <p>Sekretaris I</p>
             </div>
         </div>
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH_Anita.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Anita Cahyani</h4>
                 <p>Sekretaris II</p>
             </div>
         </div>
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH_Maylinna.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Maylinna Rahayu N</h4>
                 <p>Bendahara I</p>
             </div>
         </div>
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH_Uut.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Uut Milanda</h4>
                 <p>Bendahara II</p>
@@ -75,35 +75,28 @@
 
         {{-- JURNALISTIK --}}
         <div class="img-container" data-category="Jurnalistik">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/JURNALIS_Nabila.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Nabila Purti D</h4>
                 <p>Ketua Divisi</p>
             </div>
         </div>
         <div class="img-container" data-category="Jurnalistik">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/JURNALIS_Wiyanda.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Wiyanda Puspita</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Jurnalistik">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/JURNALIS_Susi.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Putri Susi S</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Jurnalistik">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
-            <div class="img-caption">
-                <h4>Kezia Gabriella</h4>
-                <p>Staff Anggota</p>
-            </div>
-        </div>
-        <div class="img-container" data-category="Jurnalistik">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/JURNALIS_Della.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Della Egyta P</h4>
                 <p>Staff Anggota</p>
@@ -119,58 +112,58 @@
             </div>
         </div>
         <div class="img-container" data-category="Sinema">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/SINEMA_Syadu.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Syadu Budi Kusuma</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Sinema">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/SINEMA_Ito.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Anggito Wahyu Adi</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Sinema">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/SINEMA_Maul.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Maulida Darennita</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Sinema">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/SINEMA_Ubai.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Ahmad Ubai Dullah</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Sinema">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/SINEMA_Anindya.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Anindya Salsabila P</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Sinema">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/SINEMA_Febri.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Muchammad Febry S</h4>
                 <p>Staff Anggota</p>
             </div>
-        </div>
+        </div>  
 
         {{-- FOTOGRAFI --}}
         <div class="img-container" data-category="Fotografi">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/FOTO_Nabiel.png') }}" alt="anggota">
             <div class="img-caption">
-                <h4>Muhammad Nabiel D A</h4>
+                <h4>Mohammad Nabiel Dwi A</h4>
                 <p>Ketua Divisi</p>
             </div>
         </div>
-        <div class="img-container" data-category="Fotografi">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+        <div class="img-container" data-category="Fotografi">~
+            <img src="{{asset('picture/keanggotaan/FOTO_Dzaki.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Muhammad Dzaki A</h4>
                 <p>Staff Anggota</p>
@@ -184,28 +177,28 @@
             </div>
         </div>
         <div class="img-container" data-category="Fotografi">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/FOTO_Sheva.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Reyhan Dzaki Sheva P</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Fotografi">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/FOTO_Radit.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Raditya Diyandra R A</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Fotografi">
-            <img src="{{asset('picture/keanggotaan/femaleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/FOTO_Sefi.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Dina Wachidah S</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Fotografi">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/FOTO_Faris.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Ali Ainun Najib Al Farisi</h4>
                 <p>Staff Anggota</p>
@@ -214,14 +207,14 @@
 
         {{-- DNA --}}
         <div class="img-container" data-category="Dna">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/DNA_Ilham.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Ilham Maulana</h4>
                 <p>Ketua Divisi</p>
             </div>
         </div>
         <div class="img-container" data-category="Dna">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/DNA_AFM.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Aditya Fajar Mulyana</h4>
                 <p>Staff Anggota</p>
@@ -235,28 +228,28 @@
             </div>
         </div>
         <div class="img-container" data-category="Dna">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/DNA_AYD.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Aditya Yoga Darmawan</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Dna">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/DNA_Azka.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>M Azka Nabhan Sauqi</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Dna">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/DNA_Agus.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Agus Sutiyanto</h4>
                 <p>Staff Anggota</p>
             </div>
         </div>
         <div class="img-container" data-category="Dna">
-            <img src="{{asset('picture/keanggotaan/maleProfile.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/DNA_Nafis.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Muhammad Nafis Hafi</h4>
                 <p>Staff Anggota</p>
