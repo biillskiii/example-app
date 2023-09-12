@@ -9,7 +9,7 @@
 <div class="karya">
     <div class="judul">
         <div class="Title">
-            <h1 style="w-700">KARYA-Karya KAMI</h1>
+            <h1 style="w-700">KARYA KAMI</h1>
             <div class="running-text">
                 <div class="marquee">
                     <span>Mempersembahkan karya-karya hebat yang kami hasilkan&nbsp;&nbsp;&nbsp;</span>

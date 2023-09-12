@@ -29,7 +29,39 @@
                 <div class="detail-event">
                     <div class="running-text">
                         <div class="marquee">
-                            <span class="deskripsi">Belum ada deskripsi&nbsp;&nbsp;&nbsp;</span>
+                            <span class="deskripsi mb-5">Belum ada deskripsi&nbsp;&nbsp;&nbsp;</span>
+                        </div>
+                    </div>
+                    <p class="waktu"><i class="bi bi-alarm"></i>Waktu</p>
+                    <p class="tempat"><i class="bi bi-geo-alt"></i>Tempat</p>
+                </div>
+                <a href="#event" class="link"> Lihat </a>
+            </div>
+        </div>
+        <div class="content-event" data-aos="zoom-in">
+            <img class="preview-container" src={{asset('/picture/infoEvent/informative.png')}} class="preview-karya" alt="" />
+            <div class="info-event">
+                <p class="judul">Past Event</p>
+                <div class="detail-event">
+                    <div class="running-text">
+                        <div class="marquee">
+                            <span class="deskripsi mb-5">Belum ada deskripsi&nbsp;&nbsp;&nbsp;</span>
+                        </div>
+                    </div>
+                    <p class="waktu"><i class="bi bi-alarm"></i>Waktu</p>
+                    <p class="tempat"><i class="bi bi-geo-alt"></i>Tempat</p>
+                </div>
+                <a href="#event" class="link"> Lihat </a>
+            </div>
+        </div>
+        <div class="content-event" data-aos="zoom-in">
+            <img class="preview-container" src={{asset('/picture/infoEvent/informative.png')}} class="preview-karya" alt="" />
+            <div class="info-event">
+                <p class="judul">Past Event</p>
+                <div class="detail-event">
+                    <div class="running-text">
+                        <div class="marquee">
+                            <span class="deskripsi mb-5">Belum ada deskripsi&nbsp;&nbsp;&nbsp;</span>
                         </div>
                     </div>
                     <p class="waktu"><i class="bi bi-alarm"></i>Waktu</p>

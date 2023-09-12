@@ -36,7 +36,7 @@
                 <a class="btn btn-light" type="submit">Bergabung</a>
             </ul>
 
-            <!-- {{-- menut toggle --}} -->
+            <!-- {{-- menu toggle --}} -->
             <div class="menu-toggle">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -56,7 +56,7 @@
                 <p class="thanks" data-aos="fade-down">Thanks For Scrolling</p>
                 <p class="organisasi" data-aos="fade-up">SCREENSHOT</p>
             </div>
-            <div class="textMiring" data-aos="zoom-in">
+            <div class="textMiring my-5" data-aos="zoom-in">
                 <div class="miring-kiri running">
                     <div class="marquee" scrollamount="10" class="miring-kiri">
                         <span>Screenshot Ilkom - PH | Sinematografi | Jurnalistik | Fotografi | DnA - Semangat Berkarya&nbsp;&nbsp;&nbsp; </span>
