@@ -11,10 +11,10 @@
     <div class="containerTentang" >
         {{-- NANTI DIGANTI TAMPILAN VIDEO --}}
         <aside>
-            <img src={{asset('picture/Tentang.png')}} class="d-block" alt="">
+            <img src={{asset('picture/about.png')}} class="d-block mt-6" alt="">
         </aside>
 
-        <div class="desc">
+        <div class="desc mt-5">
             <div class="tentang">
                 <p class="judulTentang" data-aos="fade-down">TENTANG</p>
                 <div class="posLogoQM" data-aos="fade-down" >
@@ -44,7 +44,7 @@
                 </p>
             </div>
             <div class="cardlist">
-                <img src="{{asset('picture/tujuan.png')}}" alt="">
+                <img src="{{asset('picture/praktek.png')}}" alt="">
                 <p class="judul">EXPRESSING IDEAS</p>
                 <p>Sebagai media penyampai ide dan gagasan yang berkaitan dengan pikiran
                     yang berkembang di masyarakat baik didalam maupun
@@ -52,7 +52,7 @@
                 </p>
             </div>
             <div class="cardlist">
-                <img src="{{asset('picture/tujuan.png')}}" alt="">
+                <img src="{{asset('picture/Skill.png')}}" alt="">
                 <p class="judul">EMPOWERING SKILLS</p>
                 <p>Sebagai media penyalur aspirasi minat dan bakat
                     mahasiswa dalam rangka ikut serta memperluas wawasan dalam bidang keilmuan.
@@ -172,7 +172,7 @@
                             <hr />
                             <div id="sinema-card">
                                 <div class="kartu">
-                                    <img src="{{asset('picture/image 9.png')}}" class="card-img-top" alt="...">
+                                    <img src="{{asset('picture/Sinema/sinema.jpg')}}" class="card-img-top" alt="...">
                                     <div class="card-body">
                                       <h5 style="font-weight: 700" class="kartu-judul">SINEMATOGRAFI</h5>
                                       <p class="kartu-text">Bertanggung jawab khusus dalam menghasilkan kualitas visual yang menarik

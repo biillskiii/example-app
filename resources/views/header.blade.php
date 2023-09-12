@@ -10,7 +10,7 @@
             </div>
         </div>
         <div class="main-foto" data-aos="fade-up">
-            <img src="{{asset('picture/image 6.png') }}" alt="image">
+            <img src="{{asset('picture/Tentang.png') }}" alt="image">
         </div>
         <div class="textMiring">
             <div class="miring-kanan">
