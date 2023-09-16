@@ -70,13 +70,14 @@
   /* margin-top: 14px; */
   position: relative;
   overflow: hidden;
-  object-fit: scale-down;
+  object-fit: cover;
 }
 .img-container img {
   position: absolute;
-  background: url(<path-to-image>), #EA4C4C 50% / cover no-repeat;
+  object-fit: cover;
+  background: url(<path-to-image>), var(--hover) 50% / cover no-repeat;
   width: 100%;
-  height: auto;
+  height: 100%;
 }
 .img-container .img-caption {
   height: 80px;

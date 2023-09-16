@@ -31,42 +31,42 @@
     <div class="foto">
         {{-- PH --}}
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/PH_Azis.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH/PH_Azis.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Nur Azis Kurnia Rianto</h4>
                 <p>Ketua</p>
             </div>
         </div>
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/PH_Kevyn.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH/PH_Kevyn.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Kevyn Alifian H W</h4>
                 <p>Wakil Ketua</p>
             </div>
         </div>
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/PH_Nadhifah.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH/PH_Nadhifah.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Nadhifah Nur A R</h4>
                 <p>Sekretaris I</p>
             </div>
         </div>
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/PH_Anita.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH/PH_Anita.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Anita Cahyani</h4>
                 <p>Sekretaris II</p>
             </div>
         </div>
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/PH_Maylinna.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH/PH_Maylinna.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Maylinna Rahayu N</h4>
                 <p>Bendahara I</p>
             </div>
         </div>
         <div class="img-container" data-category="PH">
-            <img src="{{asset('picture/keanggotaan/PH_Uut.png') }}" alt="anggota">
+            <img src="{{asset('picture/keanggotaan/PH/PH_Uut.png') }}" alt="anggota">
             <div class="img-caption">
                 <h4>Uut Milanda</h4>
                 <p>Bendahara II</p>
